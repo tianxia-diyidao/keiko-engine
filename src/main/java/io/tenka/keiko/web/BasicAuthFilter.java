@@ -6,8 +6,6 @@ import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.beans.factory.annotation.Value;
-import org.springframework.stereotype.Component;
 import org.springframework.web.filter.OncePerRequestFilter;
 
 import java.io.IOException;
@@ -32,7 +30,6 @@ import java.util.Base64;
  * Fly.io / production: set via {@code fly secrets set BASIC_AUTH_USER=jerry
  * BASIC_AUTH_PASS=...}.
  */
-@Component
 public class BasicAuthFilter extends OncePerRequestFilter {
 
     private static final Logger log = LoggerFactory.getLogger(BasicAuthFilter.class);
@@ -42,8 +39,7 @@ public class BasicAuthFilter extends OncePerRequestFilter {
     private final String password;
     private final boolean enabled;
 
-    public BasicAuthFilter(@Value("${keiko.basic-auth.user:}") String user,
-                           @Value("${keiko.basic-auth.password:}") String password) {
+    public BasicAuthFilter(String user, String password) {
         this.user = user == null ? "" : user;
         this.password = password == null ? "" : password;
         this.enabled = !this.user.isEmpty() && !this.password.isEmpty();
