@@ -27,7 +27,7 @@ public class IndexController {
         model.addAttribute("subject", subject);
         // TODO(follow-up PR): wire from build.gradle.kts version via
         // application.properties so we don't hand-edit two places per bump.
-        model.addAttribute("projectVersion", "v0.3");
+        model.addAttribute("projectVersion", "v0.4");
         model.addAttribute("defaultDeckCount", picker.poolSize("default"));
         model.addAttribute("experimentalDeckCount", picker.poolSize("experimental"));
         return "index";

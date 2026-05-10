@@ -18,7 +18,16 @@ GRADLE = ./gradlew --no-daemon
 
 run:
 	@echo "→ keiko-engine local run (STUDY_SUBJECT=$(SUBJECT))"
+	@if [ "$$(git rev-parse --abbrev-ref HEAD)" = "main" ]; then \
+		echo "→ git pull --ff-only" && git pull --ff-only; \
+	else \
+		echo "→ on branch $$(git rev-parse --abbrev-ref HEAD); skipping git pull"; \
+	fi
 	@echo "→ booting on http://localhost:8080"
+	STUDY_SUBJECT=$(SUBJECT) $(GRADLE) bootRun
+
+run-nopull:
+	@echo "→ keiko-engine local run (no pull, STUDY_SUBJECT=$(SUBJECT))"
 	STUDY_SUBJECT=$(SUBJECT) $(GRADLE) bootRun
 
 test:
