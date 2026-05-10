@@ -108,7 +108,8 @@ public class ApiController {
                 card.translationZhTw(),
                 card.translationZhCn(),
                 card.translationEn(),
-                card.attribution()
+                card.attribution(),
+                card.citations() == null ? java.util.List.of() : card.citations()
         ));
     }
 

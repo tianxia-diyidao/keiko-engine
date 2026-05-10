@@ -14,8 +14,31 @@ class CardStoreTest {
     @Autowired CardStore cardStore;
 
     @Test
-    void initialBankIsFiftyCards() {
-        assertThat(cardStore.all()).hasSize(50);
+    void cardBankSizeMatchesStandingRule() {
+        // Standing rule (CLAUDE.md §5.2): every PR adds 50 validated cards.
+        // PR #1 (initial): 50. PR #3 (this): +50. Bump in lockstep with each
+        // 50-card additions PR going forward.
+        assertThat(cardStore.all()).hasSize(100);
+    }
+
+    @Test
+    void everyCardHasAtLeastOneCitationWithUrl() {
+        // PR #3 (v0.3) feature: structured citations with links. Every card
+        // gets at least one (the lead SCOTUS opinion).
+        for (Card c : cardStore.all()) {
+            assertThat(c.citations())
+                    .as("card %s should have citations", c.id())
+                    .isNotNull()
+                    .isNotEmpty();
+            c.citations().forEach(cite -> {
+                assertThat(cite.url())
+                        .as("card %s citation '%s' must have a non-blank url", c.id(), cite.label())
+                        .isNotBlank();
+                assertThat(cite.label())
+                        .as("card %s citation must have a non-blank label", c.id())
+                        .isNotBlank();
+            });
+        }
     }
 
     @Test
