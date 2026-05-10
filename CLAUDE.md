@@ -47,9 +47,39 @@ Per `src/main/resources/motivation/{zh,jp}.json`. Source language alternates by 
 
 ~50% 四字熟語 / 成語. Citations inside the tip parens. Anti-dup grep first. Cross-subject by language — these pools serve every subject the engine ever loads.
 
-### 5.2 Content additions (12-15 cards per PR for the active subject)
+### 5.2 Content additions (50 validated cards per PR for the active subject)
 
-For us-conlaw: 12-15 fresh ConLaw multiple-choice questions per PR, drawing on best-effort case-law knowledge. Mark `provenance: experimental` if uncertain about specific holdings; `human_curated` if citing well-settled black-letter doctrine. Tutor (or 先輩 himself) validates and promotes.
+**Updated PR #3 (v0.3)**: every PR adds **50 validated cards** to the active subject's `cards.json`, spread roughly evenly across major topics. For us-conlaw, the topic mix:
+- Federalism (~8): Commerce Clause, Dormant Commerce, 10A, preemption, P&I, spending, sovereign immunity, treaty/foreign affairs
+- Federal Courts / Justiciability (~6): Erie, abstention (Younger / Pullman / Burford / Colorado River), Ex parte Young, jurisdiction
+- State sovereignty (~4): Garcia, Alden, FMC, Boerne § 5
+- Separation of powers (~8): Youngstown, Chadha, Bowsher, Mistretta, Morrison/Seila, Free Enterprise Fund, Zivotofsky, Trump v. Hawaii, Biden v. Nebraska, major-questions cases
+- 1A (~7): incitement (Brandenburg), public concern (Snyder), political speech (Citizens United, Janus), compelled speech (303 Creative), Free Exercise (Trinity Lutheran, Carson, Espinoza)
+- EP / DP (~6): Glucksberg methodology, Lawrence, Windsor, SFFA, Plyler, Rodriguez
+- **Death penalty** (~3): Furman, Gregg, Atkins, Roper, Hall, Bucklew (covered explicitly per 先輩)
+- 4A / 5A / 6A criminal procedure (~5): Mapp, Terry, Strickland, Batson, Ramos
+- 8A (~3): Roper, Hall, Bucklew (covered explicitly per 先輩)
+
+Mark `provenance: human_curated` when citing well-settled black-letter doctrine with the leading SCOTUS opinion. Mark `experimental` only if uncertain about a holding's specifics. Tutor (or 先輩 himself, with bar background) validates and promotes if needed.
+
+### 5.2a Citation policy (NEW PR #3)
+
+Every card MUST include at least one citation in the `citations` array, with `label` and `url`. Citation tier order:
+1. **SCOTUS first** — primary authority, always cited if a SCOTUS opinion is on point
+   - URL: `https://supreme.justia.com/cases/federal/us/<vol>/<page>/` (works for any year, including modern slip-ops mirrored after release)
+   - Alternative: `https://www.supremecourt.gov/opinions/<term>/...` for very recent (slip-op) opinions
+   - Alternative: `https://www.law.cornell.edu/supremecourt/text/<vol>/<page>` (Cornell LII, canonical)
+2. **Federal circuit courts** — supplement when the area is still developing or when a circuit split is heading to cert
+   - URL: `https://law.justia.com/cases/federal/appellate-courts/F3/<vol>/<page>/` (or similar)
+3. **Top law reviews** (secondary authority for scholarly treatment)
+   - **FAVORED**: University of Texas School of Law (Austin) — `https://texaslawreview.org/`
+   - **ESPECIALLY FAVORED**: UT Austin's *Review of Litigation* — `https://thereviewoflitigation.org/`
+   - Other top tier (in rough rank order): Harvard, Yale, Stanford, Columbia, Chicago, NYU, Penn, Virginia, Michigan
+4. **Type field** classifies the citation: `"scotus"` | `"circuit"` | `"law-review"` | `"other"` — drives the back-face marker (◆ SCt, ▲ CCA, ◇ LR, • other)
+
+The frontend renders citations as clickable links. Multiple citations are listed lead-authority first.
+
+### 5.3 Version bump
 
 ### 5.3 Version bump
 
@@ -101,6 +131,7 @@ One-time setup per README. After that, `fly deploy` from local OR a GitHub Actio
 
 - v0.1 (PR #1): initial scaffold + 50 us-conlaw cards + 12 ZH motivation + Subject layer + Dockerfile + fly.toml + README + CLAUDE.md
 - v0.2 (PR #2 — even → JP): grading-bug fix (text-based grading; the v0.1 position-based grader misgraded shuffled choices) + 12 JP motivation entries (七転び八起き · 一期一会 · 継続は力なり · 為せば成る · 温故知新 · 初心忘るべからず · 不撓不屈 · 千里の道も一歩から · 案ずるより産むが易し · 急がば回れ · 雨垂れ石を穿つ · 人事を尽くして天命を待つ)
+- v0.3 (PR #3 — odd → ZH): citations-with-links feature (Citation record + CardDto exposes them + JS renders as `<a target="_blank">` + CSS) + backfill of all 50 existing cards with citations + **50 NEW validated us-conlaw cards (cards 051-100)** spread across federalism / fed-courts / state sovereignty / sep-of-powers / 1A / EP-DP / **death penalty** / 4A-5A-6A / **8A** + 12 ZH motivation entries (業精於勤 · 天下大事必作於細 · 知者不惑 · 工欲善其事 · 玉不琢不成器 · 三人行必有我師焉 · 學而不思則罔 · 君子求諸己 · 勿以惡小而為之 · 自強不息 · 靜以修身 · 失之東隅) + CLAUDE.md §5.2 standing-rule update (50-cards/PR) + §5.2a citation policy (UT Austin / Review of Litigation favored)
 
 ## 10. The continuity rule
 

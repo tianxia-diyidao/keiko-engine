@@ -31,7 +31,13 @@ public record Card(
         String tags,
         String source,
         String provenance,                           // human_curated | experimental | etc.
-        String attribution
+        String attribution,
+        // PR #2 (v0.3): structured citations rendered as clickable links on
+        // the back face. Primary source = SCOTUS opinions (supremecourt.gov
+        // for recent, supreme.justia.com for older). Supplement with circuit
+        // court opinions where the law is still developing, and top law-
+        // review notes for scholarly treatment.
+        List<Citation> citations
 ) {
     /** A choice is "correct" if its isCorrect flag is true. */
     public Choice correctChoice() {

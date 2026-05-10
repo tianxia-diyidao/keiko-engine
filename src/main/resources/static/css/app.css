@@ -90,6 +90,39 @@ html, body { margin: 0; padding: 0; background: var(--paper); color: var(--ink);
 #card-verdict { font-weight: bold; margin-bottom: 0.5rem; }
 #card-correct { color: var(--ink-mute); margin-bottom: 0.75rem; font-style: italic; }
 #card-explanation { white-space: pre-wrap; font-size: 0.95rem; }
+
+/* Citations block — sits between explanation and attribution. */
+.citations {
+    list-style: none;
+    padding: 0;
+    margin: 0.9rem 0 0.6rem 0;
+    border-top: var(--rule-thin) dotted var(--paper-edge);
+    padding-top: 0.6rem;
+}
+.citations li {
+    font-size: 0.85rem;
+    line-height: 1.5;
+    padding: 0.15rem 0;
+    color: var(--ink);
+}
+.citations .cite-marker {
+    display: inline-block;
+    width: 1.2rem;
+    color: var(--accent);
+    font-size: 0.78rem;
+    user-select: none;
+}
+.citations a {
+    color: var(--ink);
+    text-decoration: underline;
+    text-decoration-color: var(--paper-edge);
+    text-underline-offset: 2px;
+}
+.citations a:hover {
+    color: var(--accent);
+    text-decoration-color: var(--accent);
+}
+
 .attribution { margin-top: 1rem; color: var(--ink-mute); font-size: 0.78rem; font-family: var(--font-mono); }
 
 .next-btn {

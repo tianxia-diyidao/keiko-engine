@@ -14,6 +14,7 @@
     verdict: document.getElementById("card-verdict"),
     correct: document.getElementById("card-correct"),
     explanation: document.getElementById("card-explanation"),
+    citations: document.getElementById("card-citations"),
     attribution: document.getElementById("card-attribution"),
     nextBtn: document.getElementById("next-btn"),
     counterCurrent: document.getElementById("counter-current"),
@@ -100,6 +101,28 @@
         dom.verdict.style.color = result.correct ? "#2e7d32" : "var(--accent)";
         dom.correct.textContent = "Credited answer: " + result.correctText;
         dom.explanation.textContent = result.explanation || "";
+        // Render citations as clickable links. The leading SCOTUS opinion
+        // (or controlling circuit-court opinion) gets a small marker so 先輩
+        // can scan source-tier at a glance: ◆ SCt, ▲ Cir, ◇ LR, • other.
+        dom.citations.innerHTML = "";
+        const cites = Array.isArray(result.citations) ? result.citations : [];
+        cites.forEach((c) => {
+            const li = document.createElement("li");
+            const marker = c.type === "scotus" ? "◆"
+                         : c.type === "circuit" ? "▲"
+                         : c.type === "law-review" ? "◇" : "•";
+            const span = document.createElement("span");
+            span.className = "cite-marker";
+            span.textContent = marker;
+            li.appendChild(span);
+            const a = document.createElement("a");
+            a.href = c.url || "#";
+            a.target = "_blank";
+            a.rel = "noopener noreferrer";
+            a.textContent = c.label || c.url || "(citation)";
+            li.appendChild(a);
+            dom.citations.appendChild(li);
+        });
         dom.attribution.textContent = result.attribution || "";
         dom.back.classList.remove("hidden");
         dom.nextBtn.hidden = false;
