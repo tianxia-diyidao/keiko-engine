@@ -17,20 +17,36 @@ GRADLE = ./gradlew --no-daemon
 .PHONY: run run-auth run-nopull test build deploy clean
 
 run:
-	@echo "→ keiko-engine local run (STUDY_SUBJECT=$(SUBJECT))"
-	@echo "→ git pull --ff-only (on branch $$(git rev-parse --abbrev-ref HEAD))"
-	@git pull --ff-only || echo "  (pull skipped — no upstream or non-ff)"
-	@echo "→ booting on http://localhost:8080"
+	@echo "==> keiko-engine local run (STUDY_SUBJECT=$(SUBJECT))"
+	@CURBR=$$(git rev-parse --abbrev-ref HEAD); \
+	if [ "$$CURBR" != "main" ]; then \
+		if [ -n "$$(git status --porcelain)" ]; then \
+			echo "XX uncommitted changes on $$CURBR -- commit/stash or use 'make run-nopull'"; exit 1; \
+		fi; \
+		echo "==> on '$$CURBR'; switching to main per run-from-main policy"; \
+		git checkout main; \
+	fi
+	@echo "==> git pull --ff-only (on main)"
+	@git pull --ff-only
+	@echo "==> booting on http://localhost:8080"
 	STUDY_SUBJECT=$(SUBJECT) $(GRADLE) bootRun
 
 run-auth:
-	@echo "→ keiko-engine local run with BasicAuth (user=dev / pass=dev)"
-	@git pull --ff-only || echo "  (pull skipped — no upstream or non-ff)"
-	@echo "→ booting on http://localhost:8080"
+	@echo "==> keiko-engine local run with BasicAuth (user=dev / pass=dev)"
+	@CURBR=$$(git rev-parse --abbrev-ref HEAD); \
+	if [ "$$CURBR" != "main" ]; then \
+		if [ -n "$$(git status --porcelain)" ]; then \
+			echo "XX uncommitted changes on $$CURBR -- commit/stash or use 'make run-nopull'"; exit 1; \
+		fi; \
+		echo "==> on '$$CURBR'; switching to main per run-from-main policy"; \
+		git checkout main; \
+	fi
+	@git pull --ff-only
+	@echo "==> booting on http://localhost:8080"
 	STUDY_SUBJECT=$(SUBJECT) BASIC_AUTH_USER=dev BASIC_AUTH_PASS=dev $(GRADLE) bootRun
 
 run-nopull:
-	@echo "→ keiko-engine local run (no pull, STUDY_SUBJECT=$(SUBJECT))"
+	@echo "==> keiko-engine local run (no pull / no checkout, STUDY_SUBJECT=$(SUBJECT))"
 	STUDY_SUBJECT=$(SUBJECT) $(GRADLE) bootRun
 
 test:
