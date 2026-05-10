@@ -23,6 +23,13 @@ keiko:
   # session middleware when that lands; presented here so the knob lives
   # in one place.
   session-idle-timeout-minutes: ${SESSION_IDLE_TIMEOUT_MINUTES:180}
+  # PR #5 (v0.5): HTTP Basic Auth gate. Opt-in — leave both blank for
+  # local dev (filter is a no-op). On Fly.io / production, set both via:
+  #   fly secrets set BASIC_AUTH_USER=<user> BASIC_AUTH_PASS=<pass>
+  # Half-set is treated as unset (defensive against blank-password mode).
+  basic-auth:
+    user: ${BASIC_AUTH_USER:}
+    password: ${BASIC_AUTH_PASS:}
 
 logging:
   level:
