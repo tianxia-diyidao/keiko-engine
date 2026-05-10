@@ -93,20 +93,12 @@ public class ApiController {
             return ResponseEntity.internalServerError().body(
                     java.util.Map.of("error", "card has no correct choice: " + card.id()));
         }
-        // Front face shuffles choices, so the client sends back position not id.
-        // We don't actually need the position to grade — we just check whether the
-        // client's chosen-text equals correct-text. But the position-only API is
-        // simpler for v0.1; the client maps position → text from the rendered DTO.
-        // For a clean grade pass, we resolve position by matching it back via the
-        // ORIGINAL choices list (which is what stores correctness).
-        // v0.1 punt: compare by index over ORIGINAL list. Front face will need to
-        // remember the rendered shuffle order; the smoke test confirms the path.
-        // (Adaptive picker + per-user session in the follow-up will rework this.)
-        int pos = req.choicePosition();
-        Choice chosen = (pos >= 1 && pos <= card.choices().size())
-                ? card.choices().get(pos - 1)
-                : null;
-        boolean correctness = chosen != null && chosen.isCorrect();
+        // v0.2 fix: grade by TEXT match. The /api/next/ DTO shuffles choices
+        // and renumbers them, so a client position doesn't map to the server's
+        // stored choice list. Comparing chosenText against correct.text() is
+        // shuffle-invariant and one less coordinate-translation to get wrong.
+        String chosenText = req.chosenText() == null ? "" : req.chosenText().trim();
+        boolean correctness = chosenText.equals(correct.text());
 
         return ResponseEntity.ok(new SubmitResponse(
                 correctness,

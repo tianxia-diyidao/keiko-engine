@@ -100,6 +100,7 @@ One-time setup per README. After that, `fly deploy` from local OR a GitHub Actio
 ## 9. Bump history
 
 - v0.1 (PR #1): initial scaffold + 50 us-conlaw cards + 12 ZH motivation + Subject layer + Dockerfile + fly.toml + README + CLAUDE.md
+- v0.2 (PR #2 — even → JP): grading-bug fix (text-based grading; the v0.1 position-based grader misgraded shuffled choices) + 12 JP motivation entries (七転び八起き · 一期一会 · 継続は力なり · 為せば成る · 温故知新 · 初心忘るべからず · 不撓不屈 · 千里の道も一歩から · 案ずるより産むが易し · 急がば回れ · 雨垂れ石を穿つ · 人事を尽くして天命を待つ)
 
 ## 10. The continuity rule
 
