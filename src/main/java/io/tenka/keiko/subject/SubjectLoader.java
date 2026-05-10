@@ -89,19 +89,27 @@ public class SubjectLoader {
         return List.of(v.toString());
     }
 
+    /** Pull '<id>' out of a 'classpath:subjects/<id>/subject.toml' Resource.
+     *  Wrapped in its own method because Resource.getURL() throws IOException
+     *  and lambdas can't propagate checked exceptions through Stream.map(). */
+    private static String extractSubjectId(Resource r) {
+        try {
+            String url = r.getURL().toString();
+            int sIdx = url.indexOf("/subjects/");
+            int eIdx = url.indexOf("/subject.toml");
+            if (sIdx < 0 || eIdx < 0) return "?";
+            return url.substring(sIdx + "/subjects/".length(), eIdx);
+        } catch (IOException e) {
+            return "?";
+        }
+    }
+
     private String listAvailableSubjects() {
         try {
             ResourcePatternResolver resolver = new PathMatchingResourcePatternResolver();
             Resource[] hits = resolver.getResources("classpath:subjects/*/subject.toml");
             return Arrays.stream(hits)
-                    .map(r -> {
-                        String url = r.getURL().toString();
-                        // Pull the directory name between '/subjects/' and '/subject.toml'
-                        int sIdx = url.indexOf("/subjects/");
-                        int eIdx = url.indexOf("/subject.toml");
-                        if (sIdx < 0 || eIdx < 0) return "?";
-                        return url.substring(sIdx + "/subjects/".length(), eIdx);
-                    })
+                    .map(SubjectLoader::extractSubjectId)
                     .distinct()
                     .sorted()
                     .collect(Collectors.joining(", ", "[", "]"));

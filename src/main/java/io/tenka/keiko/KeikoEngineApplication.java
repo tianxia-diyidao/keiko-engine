@@ -1,10 +1,14 @@
-package io.tenka.keiko.app;
+package io.tenka.keiko;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /**
  * keiko-engine — content-agnostic flashcard study engine.
+ *
+ * <p>Lives at the package root by convention so Spring's component-scan
+ * (and {@code @SpringBootTest}'s auto-configuration discovery) reaches
+ * every sibling package: domain, service, subject, web.
  *
  * <p>Engine ↔ content split mirrors the Python sibling project: the engine
  * (this codebase) is subject-blind; the active subject is loaded at boot
