@@ -1,0 +1,36 @@
+# US Federal Constitutional Law — bar-exam level (CA / NY / TX), as of
+# May 2026.
+#
+# This subject's cards.json holds 50 reliable multiple-choice questions
+# spanning federalism, separation of powers, individual rights, equal
+# protection, due process, criminal procedure, standing/justiciability,
+# and recent Supreme Court holdings (Dobbs 2022, Bruen 2022, SFFA 2023,
+# Trump v. United States 2024, Loper Bright 2024, etc.).
+#
+# Provenance: Claude-authored, careful — citing leading cases and well-
+# settled doctrine. Awaiting expert validation before promoting beyond
+# the initial human_curated mark; the bar-prep audience deserves
+# tutor-grade verification.
+
+id = "us-conlaw"
+name = "US Federal Constitutional Law"
+brand_mark = "Lex"
+
+# Subhead text. Bar-exam reference.
+subhead = "State bar (CA / NY / TX) preparation"
+
+# Content language. Stems and explanations are in English.
+primary_language = "en"
+default_ui_language = "en"
+
+# Translations not authored for this subject — back face shows the
+# explanation block only. (Future enrichment could add ZH translations
+# of fact patterns for bilingual EN+Mandarin study, but v0.1 stays
+# English-only.)
+explanation_languages = ["en"]
+
+default_deck_filter = ["human_curated", "human_validated", "user_override"]
+
+# No exam date — the bar is taken at various times throughout the year;
+# leave blank so the masthead countdown is hidden.
+exam_date = ""

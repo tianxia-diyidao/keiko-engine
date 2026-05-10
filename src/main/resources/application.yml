@@ -1,0 +1,30 @@
+# keiko-engine application config.
+#
+# The active subject is the only thing that varies between deployments
+# of this engine. STUDY_SUBJECT env var (default: us-conlaw) selects
+# which subdirectory under src/main/resources/subjects/ supplies the
+# cards.json + subject.toml.
+
+server:
+  port: ${PORT:8080}        # Fly.io sets PORT; local dev defaults to 8080
+  shutdown: graceful
+
+spring:
+  application:
+    name: keiko-engine
+  thymeleaf:
+    cache: ${THYMELEAF_CACHE:false}   # disable cache in dev for hot reload
+
+# Custom keiko config namespace.
+keiko:
+  subject: ${STUDY_SUBJECT:us-conlaw}
+  # Idle timeout for the (future) per-user session. Mirrors the Python
+  # project's SESSION_IDLE_TIMEOUT_MINUTES (default 180). Wired in the
+  # session middleware when that lands; presented here so the knob lives
+  # in one place.
+  session-idle-timeout-minutes: ${SESSION_IDLE_TIMEOUT_MINUTES:180}
+
+logging:
+  level:
+    io.tenka.keiko: INFO
+    org.springframework.web: INFO

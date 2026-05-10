@@ -1,0 +1,1006 @@
+{
+  "cards": [
+    {
+      "id": "usconlaw-001",
+      "kind": "grammar",
+      "level": "",
+      "stem": "Congress passes a law regulating purely intrastate commercial activity that, in the aggregate, substantially affects interstate commerce. Which doctrine most directly supports Congress's power to enact this law?",
+      "grammar_point": "Commerce Clause — aggregation",
+      "choices": [
+        {"text": "The Necessary and Proper Clause alone", "is_correct": false},
+        {"text": "The aggregate effects doctrine under the Commerce Clause (Wickard v. Filburn)", "is_correct": true},
+        {"text": "The 10th Amendment's reservation of state powers", "is_correct": false},
+        {"text": "Substantive due process under the 14th Amendment", "is_correct": false}
+      ],
+      "translation_zh_tw": "",
+      "translation_zh_cn": "",
+      "translation_en": "",
+      "explanation": "Wickard v. Filburn (1942) established that Congress may regulate purely intrastate activity where the AGGREGATE effect of similar activities substantially affects interstate commerce. This survives Lopez/Morrison so long as the regulated activity is ECONOMIC in character; it remains the core post-New Deal Commerce Clause justification.",
+      "difficulty": 3,
+      "tags": "us-conlaw,federalism,commerce-clause",
+      "source": "claude-authored-may-2026",
+      "provenance": "human_curated",
+      "attribution": "Claude PR #1 (initial bank). Cites Wickard v. Filburn, 317 U.S. 111 (1942)."
+    },
+    {
+      "id": "usconlaw-002",
+      "kind": "grammar",
+      "level": "",
+      "stem": "Congress enacts a federal statute making it a crime to possess a firearm within 1,000 feet of a public school. The activity regulated is non-commercial. The statute is most likely:",
+      "grammar_point": "Commerce Clause — Lopez/Morrison limits",
+      "choices": [
+        {"text": "Constitutional under the Commerce Clause because firearms move in interstate commerce", "is_correct": false},
+        {"text": "Constitutional under the Necessary and Proper Clause", "is_correct": false},
+        {"text": "Unconstitutional as exceeding Congress's Commerce Clause power", "is_correct": true},
+        {"text": "Constitutional under the Spending Clause", "is_correct": false}
+      ],
+      "translation_zh_tw": "", "translation_zh_cn": "", "translation_en": "",
+      "explanation": "United States v. Lopez (1995) struck down the Gun-Free School Zones Act because gun possession near a school is not economic/commercial activity. Congress's Commerce Clause power reaches (1) channels, (2) instrumentalities, or (3) activities that substantially affect interstate commerce — but Lopez/Morrison (2000) hold that NON-economic intrastate activity cannot be aggregated to satisfy the third category.",
+      "difficulty": 3,
+      "tags": "us-conlaw,federalism,commerce-clause",
+      "source": "claude-authored-may-2026",
+      "provenance": "human_curated",
+      "attribution": "Claude PR #1. Cites United States v. Lopez, 514 U.S. 549 (1995); United States v. Morrison, 529 U.S. 598 (2000)."
+    },
+    {
+      "id": "usconlaw-003",
+      "kind": "grammar",
+      "level": "",
+      "stem": "A state enacts a tax that applies only to out-of-state vendors selling within the state, while exempting in-state vendors. Without express congressional authorization, the tax is most likely:",
+      "grammar_point": "Dormant Commerce Clause — facial discrimination",
+      "choices": [
+        {"text": "Constitutional under the state's police power", "is_correct": false},
+        {"text": "Constitutional under the 10th Amendment", "is_correct": false},
+        {"text": "Unconstitutional as violating the Dormant Commerce Clause", "is_correct": true},
+        {"text": "Constitutional under the Privileges and Immunities Clause", "is_correct": false}
+      ],
+      "translation_zh_tw": "", "translation_zh_cn": "", "translation_en": "",
+      "explanation": "The Dormant Commerce Clause prohibits state laws that facially discriminate against interstate commerce. Such laws are subject to 'virtually per se invalidity' (City of Philadelphia v. New Jersey) and survive only on a showing of necessity to a legitimate non-economic purpose with no less-discriminatory means available (Maine v. Taylor).",
+      "difficulty": 3,
+      "tags": "us-conlaw,federalism,dormant-commerce",
+      "source": "claude-authored-may-2026",
+      "provenance": "human_curated",
+      "attribution": "Claude PR #1. Cites City of Philadelphia v. New Jersey, 437 U.S. 617 (1978); Maine v. Taylor, 477 U.S. 131 (1986)."
+    },
+    {
+      "id": "usconlaw-004",
+      "kind": "grammar",
+      "level": "",
+      "stem": "Congress enacts a law that, while not directly authorized by any enumerated power, is reasonably adapted to executing one of the enumerated powers. The most precise constitutional basis is:",
+      "grammar_point": "Necessary and Proper Clause",
+      "choices": [
+        {"text": "The 10th Amendment", "is_correct": false},
+        {"text": "The Necessary and Proper Clause (Art. I § 8 cl. 18)", "is_correct": true},
+        {"text": "The Supremacy Clause", "is_correct": false},
+        {"text": "The General Welfare Clause", "is_correct": false}
+      ],
+      "translation_zh_tw": "", "translation_zh_cn": "", "translation_en": "",
+      "explanation": "McCulloch v. Maryland (1819) established that Congress's enumerated powers include implied power to adopt any means 'appropriate' and 'plainly adapted' to executing those powers, so long as not prohibited. This is the textual basis of the Necessary and Proper Clause and Marshall's foundational opinion on implied federal powers.",
+      "difficulty": 2,
+      "tags": "us-conlaw,federalism,necessary-and-proper",
+      "source": "claude-authored-may-2026",
+      "provenance": "human_curated",
+      "attribution": "Claude PR #1. Cites McCulloch v. Maryland, 17 U.S. (4 Wheat.) 316 (1819)."
+    },
+    {
+      "id": "usconlaw-005",
+      "kind": "grammar",
+      "level": "",
+      "stem": "Congress enacts a law requiring state law enforcement officers to perform background checks on firearms purchasers. The most likely defect is:",
+      "grammar_point": "10A — anti-commandeering",
+      "choices": [
+        {"text": "Violation of the Commerce Clause", "is_correct": false},
+        {"text": "Violation of the Necessary and Proper Clause", "is_correct": false},
+        {"text": "Violation of the 10th Amendment's anti-commandeering principle", "is_correct": true},
+        {"text": "Violation of the Supremacy Clause", "is_correct": false}
+      ],
+      "translation_zh_tw": "", "translation_zh_cn": "", "translation_en": "",
+      "explanation": "Printz v. United States (1997) held that the federal government cannot commandeer state EXECUTIVE officers to enforce federal regulatory programs. New York v. United States (1992) had already held the same for state LEGISLATURES. The 10th Amendment's anti-commandeering doctrine bars federal compulsion of state legislative or executive action.",
+      "difficulty": 3,
+      "tags": "us-conlaw,federalism,tenth-amendment",
+      "source": "claude-authored-may-2026",
+      "provenance": "human_curated",
+      "attribution": "Claude PR #1. Cites Printz v. United States, 521 U.S. 898 (1997); New York v. United States, 505 U.S. 144 (1992)."
+    },
+    {
+      "id": "usconlaw-006",
+      "kind": "grammar",
+      "level": "",
+      "stem": "A federal statute regulating airlines contains: 'No state may enact any law affecting airline rates, routes, or services.' A state nonetheless passes a consumer-protection statute imposing penalties for airline-fare disclosure violations. The state statute is most likely:",
+      "grammar_point": "Supremacy Clause — express preemption",
+      "choices": [
+        {"text": "Constitutional under the state's police power", "is_correct": false},
+        {"text": "Preempted by express congressional preemption", "is_correct": true},
+        {"text": "Constitutional under the Tenth Amendment", "is_correct": false},
+        {"text": "Constitutional because it deals with consumer protection", "is_correct": false}
+      ],
+      "translation_zh_tw": "", "translation_zh_cn": "", "translation_en": "",
+      "explanation": "Express preemption arises when Congress explicitly displaces state law. Morales v. Trans World Airlines (1992) found exactly this preemption clause in the Airline Deregulation Act and held it preempts state laws 'relating to' airline rates, routes, or services. The Supremacy Clause (Art. VI cl. 2) makes valid federal law supreme over conflicting state law.",
+      "difficulty": 3,
+      "tags": "us-conlaw,federalism,preemption",
+      "source": "claude-authored-may-2026",
+      "provenance": "human_curated",
+      "attribution": "Claude PR #1. Cites Morales v. Trans World Airlines, 504 U.S. 374 (1992)."
+    },
+    {
+      "id": "usconlaw-007",
+      "kind": "grammar",
+      "level": "",
+      "stem": "A state law requires residents-only hiring on state-funded construction projects. A non-resident challenges the law. The most appropriate constitutional basis is:",
+      "grammar_point": "Article IV Privileges and Immunities",
+      "choices": [
+        {"text": "The 14th Amendment Privileges or Immunities Clause", "is_correct": false},
+        {"text": "The Article IV § 2 Privileges and Immunities Clause", "is_correct": true},
+        {"text": "The Equal Protection Clause", "is_correct": false},
+        {"text": "The Dormant Commerce Clause", "is_correct": false}
+      ],
+      "translation_zh_tw": "", "translation_zh_cn": "", "translation_en": "",
+      "explanation": "Article IV § 2's Privileges and Immunities Clause prohibits states from discriminating against citizens of other states with respect to 'fundamental rights' including the right to pursue a livelihood. The state must show (a) substantial reason for the discrimination AND (b) the discrimination bears a substantial relation to that reason (United Building & Construction Trades v. Camden).",
+      "difficulty": 4,
+      "tags": "us-conlaw,federalism,privileges-and-immunities",
+      "source": "claude-authored-may-2026",
+      "provenance": "human_curated",
+      "attribution": "Claude PR #1. Cites United Building & Construction Trades Council v. Mayor & Council of Camden, 465 U.S. 208 (1984)."
+    },
+    {
+      "id": "usconlaw-008",
+      "kind": "grammar",
+      "level": "",
+      "stem": "Congress conditions a state's continued receipt of all federal Medicaid funds on the state's adoption of a substantial Medicaid expansion. Per recent Supreme Court doctrine, this conditional grant is most likely:",
+      "grammar_point": "Spending Clause — coercion limit",
+      "choices": [
+        {"text": "Constitutional under the unlimited federal spending power", "is_correct": false},
+        {"text": "Unconstitutional as economic coercion of states", "is_correct": true},
+        {"text": "Unconstitutional under the 10th Amendment", "is_correct": false},
+        {"text": "Constitutional under the Necessary and Proper Clause", "is_correct": false}
+      ],
+      "translation_zh_tw": "", "translation_zh_cn": "", "translation_en": "",
+      "explanation": "NFIB v. Sebelius (2012) held that conditioning ALL existing Medicaid funds on state acceptance of expansion was unconstitutionally coercive — 'a gun to the head' of states. The federal spending power has limits when conditions become so coercive that 'pressure turns into compulsion.' The four Dole conditions still apply (general welfare, unambiguous, related to federal interest, no other constitutional bar) plus the new coercion limit.",
+      "difficulty": 4,
+      "tags": "us-conlaw,federalism,spending-power",
+      "source": "claude-authored-may-2026",
+      "provenance": "human_curated",
+      "attribution": "Claude PR #1. Cites NFIB v. Sebelius, 567 U.S. 519 (2012); South Dakota v. Dole, 483 U.S. 203 (1987)."
+    },
+    {
+      "id": "usconlaw-009",
+      "kind": "grammar",
+      "level": "",
+      "stem": "A private citizen sues a state in federal court for damages alleging a state agency violated federal employment-discrimination law. Absent congressional abrogation under a valid 14A § 5 exercise, the suit is most likely:",
+      "grammar_point": "11A — state sovereign immunity",
+      "choices": [
+        {"text": "Permitted under the Supremacy Clause", "is_correct": false},
+        {"text": "Barred by state sovereign immunity (11th Amendment)", "is_correct": true},
+        {"text": "Permitted because the cause of action arises under federal law", "is_correct": false},
+        {"text": "Barred by the Article III case-or-controversy requirement", "is_correct": false}
+      ],
+      "translation_zh_tw": "", "translation_zh_cn": "", "translation_en": "",
+      "explanation": "The 11th Amendment (and underlying state sovereign immunity) bars private federal-court suits against non-consenting states. Congress can abrogate this immunity ONLY when acting under the 14A § 5 enforcement power AND with a 'clear statement' (Seminole Tribe v. Florida; Kimel v. Florida Bd. of Regents). Article I powers (e.g., Commerce) do NOT support abrogation.",
+      "difficulty": 4,
+      "tags": "us-conlaw,federalism,sovereign-immunity",
+      "source": "claude-authored-may-2026",
+      "provenance": "human_curated",
+      "attribution": "Claude PR #1. Cites Seminole Tribe v. Florida, 517 U.S. 44 (1996); Kimel v. Florida Bd. of Regents, 528 U.S. 62 (2000)."
+    },
+    {
+      "id": "usconlaw-010",
+      "kind": "grammar",
+      "level": "",
+      "stem": "The President negotiates a sole-executive agreement with a foreign nation that affects domestic commerce. The agreement is not submitted to the Senate. Its domestic legal effect within the U.S. depends most directly on:",
+      "grammar_point": "Treaty power vs. executive agreements",
+      "choices": [
+        {"text": "The Treaty Clause's two-thirds Senate requirement", "is_correct": false},
+        {"text": "The President's exclusive Article II foreign-affairs power", "is_correct": false},
+        {"text": "Whether Congress has authorized executive agreements in the area", "is_correct": true},
+        {"text": "The Supremacy Clause alone", "is_correct": false}
+      ],
+      "translation_zh_tw": "", "translation_zh_cn": "", "translation_en": "",
+      "explanation": "Sole-executive agreements bind the U.S. internationally but their DOMESTIC legal effect typically requires either congressional authorization (Dames & Moore v. Regan) or independent presidential constitutional authority. Under the Youngstown framework (Jackson concurrence), executive action carries the most weight when authorized by Congress (Category 1) and the least when contrary to congressional will (Category 3).",
+      "difficulty": 4,
+      "tags": "us-conlaw,federalism,foreign-affairs",
+      "source": "claude-authored-may-2026",
+      "provenance": "human_curated",
+      "attribution": "Claude PR #1. Cites Dames & Moore v. Regan, 453 U.S. 654 (1981); Youngstown Sheet & Tube v. Sawyer, 343 U.S. 579 (1952) (Jackson, J., concurring)."
+    },
+    {
+      "id": "usconlaw-011",
+      "kind": "grammar",
+      "level": "",
+      "stem": "The President issues an executive order seizing private steel mills to ensure war production where Congress has not declared war or authorized presidential seizure. Under the Youngstown framework, the action is in:",
+      "grammar_point": "Separation of powers — Youngstown categories",
+      "choices": [
+        {"text": "Category 1 (acting pursuant to congressional authorization)", "is_correct": false},
+        {"text": "Category 2 (Congress is silent — twilight zone)", "is_correct": false},
+        {"text": "Category 3 (acting against express or implied congressional will) — weakest ground", "is_correct": true},
+        {"text": "None of the categories applies", "is_correct": false}
+      ],
+      "translation_zh_tw": "", "translation_zh_cn": "", "translation_en": "",
+      "explanation": "This is the Youngstown Sheet & Tube v. Sawyer (1952) fact pattern. Justice Jackson's three-category concurrence is the operative framework. Truman's seizure failed because Congress had implicitly forbidden such action through prior labor-management statutes (Taft-Hartley) — Category 3, where presidential power is at its lowest ebb.",
+      "difficulty": 3,
+      "tags": "us-conlaw,sep-of-powers,executive-power",
+      "source": "claude-authored-may-2026",
+      "provenance": "human_curated",
+      "attribution": "Claude PR #1. Cites Youngstown Sheet & Tube v. Sawyer, 343 U.S. 579 (1952)."
+    },
+    {
+      "id": "usconlaw-012",
+      "kind": "grammar",
+      "level": "",
+      "stem": "A federal grand jury subpoenas tape recordings of presidential conversations potentially relevant to a criminal investigation. The President asserts executive privilege as an absolute bar to disclosure. The privilege is:",
+      "grammar_point": "Executive privilege",
+      "choices": [
+        {"text": "Absolute — communications immune from compelled disclosure", "is_correct": false},
+        {"text": "Qualified — must yield to a demonstrated, specific need in a criminal proceeding", "is_correct": true},
+        {"text": "Inapplicable to communications with non-cabinet advisors", "is_correct": false},
+        {"text": "Coextensive with the Speech and Debate Clause", "is_correct": false}
+      ],
+      "translation_zh_tw": "", "translation_zh_cn": "", "translation_en": "",
+      "explanation": "United States v. Nixon (1974) held that while executive privilege has a legitimate constitutional basis (separation of powers + need for candid advice), it is QUALIFIED. A generalized privilege claim must yield to a 'demonstrated, specific need for evidence in a pending criminal trial.' For matters of military, diplomatic, or sensitive national security, the deference is greater.",
+      "difficulty": 3,
+      "tags": "us-conlaw,sep-of-powers,executive-privilege",
+      "source": "claude-authored-may-2026",
+      "provenance": "human_curated",
+      "attribution": "Claude PR #1. Cites United States v. Nixon, 418 U.S. 683 (1974)."
+    },
+    {
+      "id": "usconlaw-013",
+      "kind": "grammar",
+      "level": "",
+      "stem": "Congress authorizes a federal agency to appoint its own administrative law judges who exercise significant discretionary authority but report to and can be removed by the agency head. Under the Appointments Clause, these judges are most likely:",
+      "grammar_point": "Appointments Clause — inferior officers",
+      "choices": [
+        {"text": "Principal officers requiring Senate confirmation", "is_correct": false},
+        {"text": "Inferior officers — Congress may vest their appointment in the agency head", "is_correct": true},
+        {"text": "Mere employees not subject to the Appointments Clause", "is_correct": false},
+        {"text": "Unconstitutional regardless of how they are appointed", "is_correct": false}
+      ],
+      "translation_zh_tw": "", "translation_zh_cn": "", "translation_en": "",
+      "explanation": "The Appointments Clause (Art. II § 2) requires presidential nomination + Senate confirmation for PRINCIPAL officers, but allows Congress to vest the appointment of INFERIOR officers in the President alone, the Courts of Law, or Heads of Departments. Inferior officers are those whose work is directed and supervised by a superior (Edmond v. United States; Lucia v. SEC, holding SEC ALJs are inferior officers).",
+      "difficulty": 4,
+      "tags": "us-conlaw,sep-of-powers,appointments",
+      "source": "claude-authored-may-2026",
+      "provenance": "human_curated",
+      "attribution": "Claude PR #1. Cites Edmond v. United States, 520 U.S. 651 (1997); Lucia v. SEC, 585 U.S. 237 (2018)."
+    },
+    {
+      "id": "usconlaw-014",
+      "kind": "grammar",
+      "level": "",
+      "stem": "A federal agency is headed by a single director who serves a 5-year term and is removable by the President only 'for inefficiency, neglect of duty, or malfeasance.' A constitutional challenge is most likely to succeed because:",
+      "grammar_point": "Removal power — Seila Law",
+      "choices": [
+        {"text": "Congress lacks authority to limit presidential removal of any officer", "is_correct": false},
+        {"text": "Single-director independent agencies violate Article II's vesting of executive power", "is_correct": true},
+        {"text": "Five-year terms exceed Article II limits", "is_correct": false},
+        {"text": "The for-cause standard is unconstitutionally vague", "is_correct": false}
+      ],
+      "translation_zh_tw": "", "translation_zh_cn": "", "translation_en": "",
+      "explanation": "Seila Law v. CFPB (2020) held that a SINGLE-director independent agency with for-cause removal protection violates Article II. The Court distinguished Humphrey's Executor (1935), which permitted for-cause removal of MULTI-MEMBER independent regulatory commissions. The single-director structure plus removal protection concentrates executive power outside presidential control.",
+      "difficulty": 4,
+      "tags": "us-conlaw,sep-of-powers,removal-power",
+      "source": "claude-authored-may-2026",
+      "provenance": "human_curated",
+      "attribution": "Claude PR #1. Cites Seila Law LLC v. CFPB, 591 U.S. 197 (2020); Humphrey's Executor v. United States, 295 U.S. 602 (1935)."
+    },
+    {
+      "id": "usconlaw-015",
+      "kind": "grammar",
+      "level": "",
+      "stem": "The President issues a pardon for a federal offense. The pardon's scope is:",
+      "grammar_point": "Pardon power — federal-only scope",
+      "choices": [
+        {"text": "Co-extensive with all federal AND state criminal liability", "is_correct": false},
+        {"text": "Limited to federal offenses; state liability is unaffected", "is_correct": true},
+        {"text": "Limited to past offenses for which a conviction has been entered", "is_correct": false},
+        {"text": "Subject to Senate ratification within 30 days", "is_correct": false}
+      ],
+      "translation_zh_tw": "", "translation_zh_cn": "", "translation_en": "",
+      "explanation": "The Article II pardon power is plenary but extends only to OFFENSES AGAINST THE UNITED STATES (i.e., federal crimes). It does not reach state criminal liability or civil claims. Pardons may be granted before conviction (Ex parte Garland) and even prospectively to a class (Burdick v. United States), but state-law liability remains.",
+      "difficulty": 3,
+      "tags": "us-conlaw,sep-of-powers,pardon-power",
+      "source": "claude-authored-may-2026",
+      "provenance": "human_curated",
+      "attribution": "Claude PR #1. Cites Ex parte Garland, 71 U.S. (4 Wall.) 333 (1866); Burdick v. United States, 236 U.S. 79 (1915)."
+    },
+    {
+      "id": "usconlaw-016",
+      "kind": "grammar",
+      "level": "",
+      "stem": "The Senate ratifies a treaty by two-thirds vote. Implementing legislation regulates conduct that, absent the treaty, would arguably exceed Congress's Article I powers. The implementing legislation is:",
+      "grammar_point": "Treaty power — Missouri v. Holland",
+      "choices": [
+        {"text": "Unconstitutional because Congress can only legislate within Article I powers", "is_correct": false},
+        {"text": "Constitutional if rationally related to executing the treaty", "is_correct": true},
+        {"text": "Always unconstitutional under the 10th Amendment", "is_correct": false},
+        {"text": "Constitutional only if the underlying treaty is self-executing", "is_correct": false}
+      ],
+      "translation_zh_tw": "", "translation_zh_cn": "", "translation_en": "",
+      "explanation": "Missouri v. Holland (1920) held that the Necessary and Proper Clause empowers Congress to enact legislation to execute treaties, even where such legislation might exceed Article I powers absent the treaty. Bond v. United States (2014) narrowed APPLICATION via the federalism canon (reading the Chemical Weapons statute not to reach purely local conduct), but did NOT overrule Holland's broader rule.",
+      "difficulty": 4,
+      "tags": "us-conlaw,sep-of-powers,treaty-power",
+      "source": "claude-authored-may-2026",
+      "provenance": "human_curated",
+      "attribution": "Claude PR #1. Cites Missouri v. Holland, 252 U.S. 416 (1920); Bond v. United States, 572 U.S. 844 (2014)."
+    },
+    {
+      "id": "usconlaw-017",
+      "kind": "grammar",
+      "level": "",
+      "stem": "The President makes appointments without Senate confirmation during a 3-day Senate recess. Under recent Supreme Court doctrine, the appointments are:",
+      "grammar_point": "Recess appointments — Noel Canning",
+      "choices": [
+        {"text": "Constitutional under the Recess Appointments Clause", "is_correct": false},
+        {"text": "Unconstitutional because the recess is too short to qualify", "is_correct": true},
+        {"text": "Constitutional only if the appointments are of inferior officers", "is_correct": false},
+        {"text": "Always constitutional during any Senate adjournment", "is_correct": false}
+      ],
+      "translation_zh_tw": "", "translation_zh_cn": "", "translation_en": "",
+      "explanation": "NLRB v. Noel Canning (2014) held that for the Recess Appointments Clause to apply, the recess must be of 'sufficient length' — at least 10 days as a presumptive minimum. Three days is presumptively too short. The Court also held the clause applies to both inter-session and substantial intra-session recesses.",
+      "difficulty": 4,
+      "tags": "us-conlaw,sep-of-powers,recess-appointments",
+      "source": "claude-authored-may-2026",
+      "provenance": "human_curated",
+      "attribution": "Claude PR #1. Cites NLRB v. Noel Canning, 573 U.S. 513 (2014)."
+    },
+    {
+      "id": "usconlaw-018",
+      "kind": "grammar",
+      "level": "",
+      "stem": "A former President is criminally indicted in federal court for actions taken while in office. Per recent Supreme Court doctrine, the former President enjoys:",
+      "grammar_point": "Presidential immunity — Trump v. United States (2024)",
+      "choices": [
+        {"text": "No criminal immunity for any acts during the presidency", "is_correct": false},
+        {"text": "Absolute immunity for core constitutional powers AND at least presumptive immunity for other official acts", "is_correct": true},
+        {"text": "Absolute immunity from all civil and criminal liability", "is_correct": false},
+        {"text": "Immunity only for actions involving foreign affairs", "is_correct": false}
+      ],
+      "translation_zh_tw": "", "translation_zh_cn": "", "translation_en": "",
+      "explanation": "Trump v. United States (2024) established a tiered immunity framework: (1) ABSOLUTE immunity for actions within the President's exclusive constitutional authority (e.g., pardon power, conduct involving DOJ); (2) at least PRESUMPTIVE immunity for other official acts (rebuttable only on a showing that prosecution would not pose dangers to executive functions); (3) NO immunity for unofficial acts.",
+      "difficulty": 4,
+      "tags": "us-conlaw,sep-of-powers,presidential-immunity",
+      "source": "claude-authored-may-2026",
+      "provenance": "human_curated",
+      "attribution": "Claude PR #1. Cites Trump v. United States, 603 U.S. 593 (2024)."
+    },
+    {
+      "id": "usconlaw-019",
+      "kind": "grammar",
+      "level": "",
+      "stem": "A federal agency interprets an ambiguous provision of its enabling statute. A regulated party challenges the interpretation in court. Per recent Supreme Court doctrine, the court should:",
+      "grammar_point": "Administrative law — Loper Bright (Chevron overruled)",
+      "choices": [
+        {"text": "Defer to the agency's reasonable interpretation under Chevron", "is_correct": false},
+        {"text": "Exercise independent judgment to determine the best statutory reading", "is_correct": true},
+        {"text": "Defer only if the agency's interpretation is 'permissible'", "is_correct": false},
+        {"text": "Defer under Skidmore in all cases regardless of statutory ambiguity", "is_correct": false}
+      ],
+      "translation_zh_tw": "", "translation_zh_cn": "", "translation_en": "",
+      "explanation": "Loper Bright Enterprises v. Raimondo (2024) overruled Chevron v. NRDC (1984). Courts must now exercise INDEPENDENT JUDGMENT to determine the best reading of statutory text. Agencies receive only the persuasive weight contemplated by Skidmore v. Swift (1944) — based on the agency's reasoning, expertise, and consistency.",
+      "difficulty": 4,
+      "tags": "us-conlaw,sep-of-powers,admin-law",
+      "source": "claude-authored-may-2026",
+      "provenance": "human_curated",
+      "attribution": "Claude PR #1. Cites Loper Bright Enterprises v. Raimondo, 603 U.S. 369 (2024); Skidmore v. Swift & Co., 323 U.S. 134 (1944)."
+    },
+    {
+      "id": "usconlaw-020",
+      "kind": "grammar",
+      "level": "",
+      "stem": "The President orders military action abroad without an explicit declaration of war by Congress. The action lasts months without specific authorization. The most likely judicial analysis is:",
+      "grammar_point": "War powers — political question",
+      "choices": [
+        {"text": "Per se unconstitutional because only Congress can declare war", "is_correct": false},
+        {"text": "Non-justiciable as a political question even if reachable on the merits", "is_correct": true},
+        {"text": "Always constitutional under the President's Commander-in-Chief power", "is_correct": false},
+        {"text": "Constitutional only with U.N. Security Council approval", "is_correct": false}
+      ],
+      "translation_zh_tw": "", "translation_zh_cn": "", "translation_en": "",
+      "explanation": "While Article I § 8 grants Congress the power to 'declare war,' federal courts have generally refused to decide war-powers disputes on POLITICAL QUESTION grounds — textually demonstrable commitment to political branches and lack of judicially manageable standards. The War Powers Resolution (1973) imposes statutory limits, but standing/political-question hurdles have caused most challenges (e.g., Campbell v. Clinton) to be dismissed.",
+      "difficulty": 4,
+      "tags": "us-conlaw,sep-of-powers,war-powers",
+      "source": "claude-authored-may-2026",
+      "provenance": "human_curated",
+      "attribution": "Claude PR #1. Cites Campbell v. Clinton, 203 F.3d 19 (D.C. Cir. 2000); Baker v. Carr, 369 U.S. 186 (1962) (political question test)."
+    },
+    {
+      "id": "usconlaw-021",
+      "kind": "grammar",
+      "level": "",
+      "stem": "A city ordinance bans 'all signs containing political speech' within 100 feet of polling places on election day. The proper level of scrutiny is:",
+      "grammar_point": "1A — content-based restrictions (strict scrutiny)",
+      "choices": [
+        {"text": "Rational basis review", "is_correct": false},
+        {"text": "Intermediate scrutiny", "is_correct": false},
+        {"text": "Strict scrutiny because the law is content-based", "is_correct": true},
+        {"text": "The ordinance is exempt from First Amendment scrutiny", "is_correct": false}
+      ],
+      "translation_zh_tw": "", "translation_zh_cn": "", "translation_en": "",
+      "explanation": "Content-based speech restrictions — those that 'draw distinctions based on the message a speaker conveys' — receive STRICT SCRUTINY (narrowly tailored to a compelling interest). Reed v. Town of Gilbert (2015) reaffirmed that content discrimination is judged by the law's text, regardless of the government's motive. Singling out 'political speech' is content-based on its face.",
+      "difficulty": 3,
+      "tags": "us-conlaw,first-amendment,speech",
+      "source": "claude-authored-may-2026",
+      "provenance": "human_curated",
+      "attribution": "Claude PR #1. Cites Reed v. Town of Gilbert, 576 U.S. 155 (2015)."
+    },
+    {
+      "id": "usconlaw-022",
+      "kind": "grammar",
+      "level": "",
+      "stem": "A city ordinance prohibits amplified sound after 10 p.m. in residential neighborhoods. It is content-neutral. The ordinance is most likely:",
+      "grammar_point": "1A — time/place/manner",
+      "choices": [
+        {"text": "Subject to strict scrutiny because it restricts speech", "is_correct": false},
+        {"text": "Constitutional if narrowly tailored to a significant government interest and leaves open alternative channels", "is_correct": true},
+        {"text": "Constitutional under any reasonable basis", "is_correct": false},
+        {"text": "Per se unconstitutional as a prior restraint", "is_correct": false}
+      ],
+      "translation_zh_tw": "", "translation_zh_cn": "", "translation_en": "",
+      "explanation": "Content-neutral time/place/manner regulations face INTERMEDIATE SCRUTINY: (1) narrowly tailored, (2) significant government interest, (3) ample alternative channels (Ward v. Rock Against Racism, 1989). Noise-control ordinances are classic examples that survive this test — the interest in residential quiet is significant and alternative channels (daytime amplification, written materials) exist.",
+      "difficulty": 3,
+      "tags": "us-conlaw,first-amendment,speech",
+      "source": "claude-authored-may-2026",
+      "provenance": "human_curated",
+      "attribution": "Claude PR #1. Cites Ward v. Rock Against Racism, 491 U.S. 781 (1989)."
+    },
+    {
+      "id": "usconlaw-023",
+      "kind": "grammar",
+      "level": "",
+      "stem": "A federal statute prohibits burning draft cards. A defendant burns his card to protest the war and raises a First Amendment defense. Under O'Brien, the statute is upheld if:",
+      "grammar_point": "1A — symbolic speech (O'Brien test)",
+      "choices": [
+        {"text": "It serves any conceivable government interest", "is_correct": false},
+        {"text": "Its restriction on speech is no greater than essential to further an important and substantial government interest unrelated to suppression of expression", "is_correct": true},
+        {"text": "The defendant lacked the intent to communicate", "is_correct": false},
+        {"text": "The activity is not symbolic speech", "is_correct": false}
+      ],
+      "translation_zh_tw": "", "translation_zh_cn": "", "translation_en": "",
+      "explanation": "United States v. O'Brien (1968) controls regulation of conduct with both speech and non-speech elements. Four-part test: (1) within constitutional power; (2) furthers an IMPORTANT or SUBSTANTIAL government interest; (3) the interest is UNRELATED to the suppression of free expression; (4) the incidental restriction on speech is no greater than essential. The Selective Service registration interest sustained the statute.",
+      "difficulty": 3,
+      "tags": "us-conlaw,first-amendment,symbolic-speech",
+      "source": "claude-authored-may-2026",
+      "provenance": "human_curated",
+      "attribution": "Claude PR #1. Cites United States v. O'Brien, 391 U.S. 367 (1968)."
+    },
+    {
+      "id": "usconlaw-024",
+      "kind": "grammar",
+      "level": "",
+      "stem": "A city park is a traditional public forum. A speaker requests a permit; the city denies based on objections to the speaker's viewpoint. The denial is most likely:",
+      "grammar_point": "1A — public forum / viewpoint discrimination",
+      "choices": [
+        {"text": "Constitutional under the city's discretion to allocate public space", "is_correct": false},
+        {"text": "Unconstitutional as viewpoint-based discrimination in a public forum", "is_correct": true},
+        {"text": "Constitutional if the city offers an alternative location", "is_correct": false},
+        {"text": "Subject to rational basis review", "is_correct": false}
+      ],
+      "translation_zh_tw": "", "translation_zh_cn": "", "translation_en": "",
+      "explanation": "In TRADITIONAL PUBLIC FORUMS (parks, sidewalks, streets), content-based restrictions face strict scrutiny and VIEWPOINT-based discrimination is per se unconstitutional. The government may impose only content-neutral, narrowly tailored time/place/manner regulations (Perry Education Ass'n, 1983). Viewpoint discrimination is the gravest First Amendment violation.",
+      "difficulty": 3,
+      "tags": "us-conlaw,first-amendment,public-forum",
+      "source": "claude-authored-may-2026",
+      "provenance": "human_curated",
+      "attribution": "Claude PR #1. Cites Perry Education Ass'n v. Perry Local Educators' Ass'n, 460 U.S. 37 (1983)."
+    },
+    {
+      "id": "usconlaw-025",
+      "kind": "grammar",
+      "level": "",
+      "stem": "A public school football coach engages in personal silent prayer at the 50-yard line after games. The school district disciplines him. Per recent Supreme Court doctrine, the proper Establishment Clause framework focuses on:",
+      "grammar_point": "Establishment Clause — Kennedy v. Bremerton",
+      "choices": [
+        {"text": "The Lemon test's three prongs", "is_correct": false},
+        {"text": "Whether the practice is consistent with historical American practices and understandings", "is_correct": true},
+        {"text": "Whether the practice has a primary effect of advancing religion", "is_correct": false},
+        {"text": "Whether the activity creates excessive government entanglement", "is_correct": false}
+      ],
+      "translation_zh_tw": "", "translation_zh_cn": "", "translation_en": "",
+      "explanation": "Kennedy v. Bremerton School District (2022) effectively abandoned the Lemon test in favor of an HISTORY-AND-TRADITION analysis. Establishment Clause inquiries now focus on whether the practice is consistent with historical American practices and understandings. The coach's personal prayer was protected; the Court rejected the school district's Establishment Clause concerns as not grounded in historical practice.",
+      "difficulty": 4,
+      "tags": "us-conlaw,first-amendment,establishment",
+      "source": "claude-authored-may-2026",
+      "provenance": "human_curated",
+      "attribution": "Claude PR #1. Cites Kennedy v. Bremerton School District, 597 U.S. 507 (2022)."
+    },
+    {
+      "id": "usconlaw-026",
+      "kind": "grammar",
+      "level": "",
+      "stem": "A neutral, generally applicable state law incidentally burdens a religious practice. Per current Supreme Court doctrine (and absent a system of individualized exemptions), the law is most likely:",
+      "grammar_point": "Free Exercise — Employment Division v. Smith",
+      "choices": [
+        {"text": "Subject to strict scrutiny because it burdens religion", "is_correct": false},
+        {"text": "Constitutional under rational basis review", "is_correct": true},
+        {"text": "Per se unconstitutional under the Free Exercise Clause", "is_correct": false},
+        {"text": "Subject to intermediate scrutiny", "is_correct": false}
+      ],
+      "translation_zh_tw": "", "translation_zh_cn": "", "translation_en": "",
+      "explanation": "Employment Division v. Smith (1990) held that NEUTRAL, GENERALLY APPLICABLE laws are not subject to strict scrutiny merely because they incidentally burden religion. However, if a law is NOT neutral or NOT generally applicable (Church of Lukumi Babalu Aye v. Hialeah, 1993), or contains a system of individualized exemptions (Fulton v. Philadelphia, 2021), strict scrutiny applies.",
+      "difficulty": 3,
+      "tags": "us-conlaw,first-amendment,free-exercise",
+      "source": "claude-authored-may-2026",
+      "provenance": "human_curated",
+      "attribution": "Claude PR #1. Cites Employment Division v. Smith, 494 U.S. 872 (1990); Fulton v. Philadelphia, 593 U.S. 522 (2021)."
+    },
+    {
+      "id": "usconlaw-027",
+      "kind": "grammar",
+      "level": "",
+      "stem": "The federal government seeks an injunction to prevent publication of classified national-security documents by a major newspaper. To obtain the injunction, the government must show:",
+      "grammar_point": "1A — prior restraint (Pentagon Papers)",
+      "choices": [
+        {"text": "The publication would violate any federal statute", "is_correct": false},
+        {"text": "The publication would cause direct, immediate, and irreparable damage to the nation", "is_correct": true},
+        {"text": "The publication is not in the public interest", "is_correct": false},
+        {"text": "The newspaper obtained the documents illegally", "is_correct": false}
+      ],
+      "translation_zh_tw": "", "translation_zh_cn": "", "translation_en": "",
+      "explanation": "New York Times v. United States (1971) (Pentagon Papers) established that prior restraints on the press carry a 'heavy presumption against constitutional validity.' The government bears a heavy burden to show publication would cause 'direct, immediate, and irreparable' harm. Mere national-security embarrassment or general harm to relations is insufficient.",
+      "difficulty": 3,
+      "tags": "us-conlaw,first-amendment,press",
+      "source": "claude-authored-may-2026",
+      "provenance": "human_curated",
+      "attribution": "Claude PR #1. Cites New York Times Co. v. United States, 403 U.S. 713 (1971)."
+    },
+    {
+      "id": "usconlaw-028",
+      "kind": "grammar",
+      "level": "",
+      "stem": "A state regulation restricts truthful, non-misleading advertising of a lawful product. Under Central Hudson, the regulation is constitutional if:",
+      "grammar_point": "1A — commercial speech (Central Hudson)",
+      "choices": [
+        {"text": "It serves any conceivable government interest", "is_correct": false},
+        {"text": "It directly advances a substantial government interest and is no more extensive than necessary", "is_correct": true},
+        {"text": "It is content-neutral", "is_correct": false},
+        {"text": "It is narrowly tailored to a compelling interest", "is_correct": false}
+      ],
+      "translation_zh_tw": "", "translation_zh_cn": "", "translation_en": "",
+      "explanation": "Central Hudson Gas & Electric v. PSC (1980) provides intermediate-scrutiny review for commercial speech. Four-part test: (1) speech is truthful and lawful, (2) substantial government interest, (3) regulation directly advances that interest, (4) regulation is no more extensive than necessary. Truthful, non-misleading ads of lawful products receive significant protection.",
+      "difficulty": 3,
+      "tags": "us-conlaw,first-amendment,commercial-speech",
+      "source": "claude-authored-may-2026",
+      "provenance": "human_curated",
+      "attribution": "Claude PR #1. Cites Central Hudson Gas & Electric Corp. v. Public Service Commission, 447 U.S. 557 (1980)."
+    },
+    {
+      "id": "usconlaw-029",
+      "kind": "grammar",
+      "level": "",
+      "stem": "A state university maintains an admissions policy that uses race as one factor in admissions decisions. Per recent Supreme Court doctrine, the policy is most likely:",
+      "grammar_point": "Equal Protection — race classifications post-SFFA",
+      "choices": [
+        {"text": "Constitutional under intermediate scrutiny", "is_correct": false},
+        {"text": "Unconstitutional as a violation of the Equal Protection Clause", "is_correct": true},
+        {"text": "Constitutional under rational basis review", "is_correct": false},
+        {"text": "Constitutional if narrowly tailored to a compelling interest", "is_correct": false}
+      ],
+      "translation_zh_tw": "", "translation_zh_cn": "", "translation_en": "",
+      "explanation": "Students for Fair Admissions v. Harvard (2023) effectively ended race-conscious admissions in higher education, holding that Harvard's and UNC's race-conscious admissions programs violated the Equal Protection Clause. The diversity rationale (Grutter v. Bollinger, 2003) was insufficient to satisfy strict scrutiny. Race-based government classifications still face strict scrutiny, but admissions policies fail it.",
+      "difficulty": 4,
+      "tags": "us-conlaw,equal-protection,race",
+      "source": "claude-authored-may-2026",
+      "provenance": "human_curated",
+      "attribution": "Claude PR #1. Cites Students for Fair Admissions v. President & Fellows of Harvard College, 600 U.S. 181 (2023)."
+    },
+    {
+      "id": "usconlaw-030",
+      "kind": "grammar",
+      "level": "",
+      "stem": "A state law differentiates between men and women in providing certain benefits. The classification is reviewed under:",
+      "grammar_point": "Equal Protection — sex (intermediate scrutiny)",
+      "choices": [
+        {"text": "Strict scrutiny", "is_correct": false},
+        {"text": "Intermediate scrutiny — substantially related to an important government interest", "is_correct": true},
+        {"text": "Rational basis review", "is_correct": false},
+        {"text": "Heightened rational basis review", "is_correct": false}
+      ],
+      "translation_zh_tw": "", "translation_zh_cn": "", "translation_en": "",
+      "explanation": "Craig v. Boren (1976) established INTERMEDIATE SCRUTINY for gender classifications: substantially related to an important government interest. United States v. Virginia (1996) (VMI) refined this with an 'exceedingly persuasive justification' requirement, but the test remains intermediate, not strict.",
+      "difficulty": 3,
+      "tags": "us-conlaw,equal-protection,sex",
+      "source": "claude-authored-may-2026",
+      "provenance": "human_curated",
+      "attribution": "Claude PR #1. Cites Craig v. Boren, 429 U.S. 190 (1976); United States v. Virginia, 518 U.S. 515 (1996)."
+    },
+    {
+      "id": "usconlaw-031",
+      "kind": "grammar",
+      "level": "",
+      "stem": "A state law treats different categories of business owners differently for tax purposes. The classification implicates no suspect class or fundamental right. The proper level of scrutiny is:",
+      "grammar_point": "Equal Protection — economic (rational basis)",
+      "choices": [
+        {"text": "Strict scrutiny", "is_correct": false},
+        {"text": "Intermediate scrutiny", "is_correct": false},
+        {"text": "Rational basis review", "is_correct": true},
+        {"text": "The classification is per se unconstitutional", "is_correct": false}
+      ],
+      "translation_zh_tw": "", "translation_zh_cn": "", "translation_en": "",
+      "explanation": "Economic and social classifications that don't implicate suspect classes or fundamental rights receive RATIONAL BASIS review — the law must be rationally related to a legitimate interest. The standard is highly deferential; courts uphold unless the classification is 'wholly irrelevant' to a legitimate purpose.",
+      "difficulty": 2,
+      "tags": "us-conlaw,equal-protection,rational-basis",
+      "source": "claude-authored-may-2026",
+      "provenance": "human_curated",
+      "attribution": "Claude PR #1. Cites Allied Stores of Ohio v. Bowers, 358 U.S. 522 (1959); FCC v. Beach Communications, 508 U.S. 307 (1993)."
+    },
+    {
+      "id": "usconlaw-032",
+      "kind": "grammar",
+      "level": "",
+      "stem": "A state law substantially burdens the right to marry. The most appropriate analytical framework is:",
+      "grammar_point": "Substantive due process — fundamental rights",
+      "choices": [
+        {"text": "Strict scrutiny because marriage is a fundamental right", "is_correct": true},
+        {"text": "Rational basis because no fundamental right is implicated", "is_correct": false},
+        {"text": "Intermediate scrutiny", "is_correct": false},
+        {"text": "Per se constitutional", "is_correct": false}
+      ],
+      "translation_zh_tw": "", "translation_zh_cn": "", "translation_en": "",
+      "explanation": "Marriage is a fundamental right protected by substantive due process (Loving v. Virginia, 1967; Obergefell v. Hodges, 2015). Substantial restrictions on the right to marry must satisfy strict scrutiny. Reasonable regulations (e.g., minimum age, blood tests, license fees) that don't UNDULY burden the right typically survive even heightened review.",
+      "difficulty": 3,
+      "tags": "us-conlaw,due-process,fundamental-rights",
+      "source": "claude-authored-may-2026",
+      "provenance": "human_curated",
+      "attribution": "Claude PR #1. Cites Loving v. Virginia, 388 U.S. 1 (1967); Obergefell v. Hodges, 576 U.S. 644 (2015)."
+    },
+    {
+      "id": "usconlaw-033",
+      "kind": "grammar",
+      "level": "",
+      "stem": "A state agency terminates a recipient's welfare benefits based on a paperwork review without prior hearing. The court applies the Mathews v. Eldridge balancing test, weighing:",
+      "grammar_point": "Procedural due process — Mathews balancing",
+      "choices": [
+        {"text": "The financial cost of additional process versus government efficiency", "is_correct": false},
+        {"text": "The private interest, the risk of erroneous deprivation, and the government's interest", "is_correct": true},
+        {"text": "Only the government's interest in efficient administration", "is_correct": false},
+        {"text": "Only whether the deprivation was substantial", "is_correct": false}
+      ],
+      "translation_zh_tw": "", "translation_zh_cn": "", "translation_en": "",
+      "explanation": "Mathews v. Eldridge (1976) three-factor balancing: (1) PRIVATE INTEREST affected, (2) RISK OF ERRONEOUS DEPRIVATION through current procedures and the value of additional safeguards, (3) GOVERNMENT'S INTEREST including the burden of additional procedures. Welfare termination requires a pre-termination hearing (Goldberg v. Kelly, 1970); Social Security disability terminations don't (Mathews itself).",
+      "difficulty": 3,
+      "tags": "us-conlaw,due-process,procedural",
+      "source": "claude-authored-may-2026",
+      "provenance": "human_curated",
+      "attribution": "Claude PR #1. Cites Mathews v. Eldridge, 424 U.S. 319 (1976); Goldberg v. Kelly, 397 U.S. 254 (1970)."
+    },
+    {
+      "id": "usconlaw-034",
+      "kind": "grammar",
+      "level": "",
+      "stem": "A private shopping mall prohibits political leafleting on its premises. A leafleter sues alleging First Amendment violation. The most likely outcome:",
+      "grammar_point": "State action doctrine",
+      "choices": [
+        {"text": "The leafleter wins because shopping malls are public forums", "is_correct": false},
+        {"text": "The mall wins because no state action is involved", "is_correct": true},
+        {"text": "The leafleter wins under the 'company town' exception", "is_correct": false},
+        {"text": "The case must be analyzed under the Equal Protection Clause", "is_correct": false}
+      ],
+      "translation_zh_tw": "", "translation_zh_cn": "", "translation_en": "",
+      "explanation": "Constitutional rights generally apply only against STATE action, not private action. A private shopping mall, even if open to the public, is not state action (Hudgens v. NLRB, 1976; Lloyd Corp. v. Tanner, 1972). The 'company town' exception (Marsh v. Alabama, 1946) is narrow — the entity must perform functions traditionally and EXCLUSIVELY reserved to the state.",
+      "difficulty": 3,
+      "tags": "us-conlaw,state-action",
+      "source": "claude-authored-may-2026",
+      "provenance": "human_curated",
+      "attribution": "Claude PR #1. Cites Hudgens v. NLRB, 424 U.S. 507 (1976); Marsh v. Alabama, 326 U.S. 501 (1946)."
+    },
+    {
+      "id": "usconlaw-035",
+      "kind": "grammar",
+      "level": "",
+      "stem": "A state enacts a law restricting abortion. Per recent Supreme Court doctrine, the law most likely is reviewed under:",
+      "grammar_point": "Substantive due process — Dobbs (rational basis)",
+      "choices": [
+        {"text": "Strict scrutiny because abortion is a fundamental right under Roe v. Wade", "is_correct": false},
+        {"text": "Rational basis review", "is_correct": true},
+        {"text": "Intermediate scrutiny", "is_correct": false},
+        {"text": "The undue burden standard from Planned Parenthood v. Casey", "is_correct": false}
+      ],
+      "translation_zh_tw": "", "translation_zh_cn": "", "translation_en": "",
+      "explanation": "Dobbs v. Jackson Women's Health Organization (2022) overruled Roe v. Wade (1973) and Planned Parenthood v. Casey (1992), holding that the Constitution does not confer a right to abortion. State abortion regulations are now reviewed under RATIONAL BASIS, with abortion regulation returned primarily to state democratic processes.",
+      "difficulty": 3,
+      "tags": "us-conlaw,due-process,abortion",
+      "source": "claude-authored-may-2026",
+      "provenance": "human_curated",
+      "attribution": "Claude PR #1. Cites Dobbs v. Jackson Women's Health Organization, 597 U.S. 215 (2022)."
+    },
+    {
+      "id": "usconlaw-036",
+      "kind": "grammar",
+      "level": "",
+      "stem": "A state requires a license to carry a concealed firearm in public, conditioned on demonstrating 'proper cause' (a specific need exceeding general self-defense). Per recent Supreme Court doctrine, the requirement is most likely:",
+      "grammar_point": "2A — Bruen historical-tradition test",
+      "choices": [
+        {"text": "Constitutional under intermediate scrutiny", "is_correct": false},
+        {"text": "Unconstitutional under the Second Amendment", "is_correct": true},
+        {"text": "Constitutional under rational basis review", "is_correct": false},
+        {"text": "Constitutional under the police-power doctrine", "is_correct": false}
+      ],
+      "translation_zh_tw": "", "translation_zh_cn": "", "translation_en": "",
+      "explanation": "New York State Rifle & Pistol Ass'n v. Bruen (2022) held that the Second Amendment protects an individual right to carry firearms in public for self-defense. Gun regulations must be consistent with the 'historical tradition of firearm regulation.' 'May-issue' or 'proper cause' regimes giving officials discretion to deny permits to law-abiding citizens were struck down.",
+      "difficulty": 4,
+      "tags": "us-conlaw,second-amendment",
+      "source": "claude-authored-may-2026",
+      "provenance": "human_curated",
+      "attribution": "Claude PR #1. Cites New York State Rifle & Pistol Ass'n v. Bruen, 597 U.S. 1 (2022)."
+    },
+    {
+      "id": "usconlaw-037",
+      "kind": "grammar",
+      "level": "",
+      "stem": "Police, without a warrant, attach a GPS tracker to a suspect's car parked on public streets, monitoring its location for a month. Per recent Supreme Court doctrine, the action constitutes:",
+      "grammar_point": "4A — Jones (trespass) + Carpenter (long-term tracking)",
+      "choices": [
+        {"text": "A non-search because the suspect was on public streets", "is_correct": false},
+        {"text": "A search requiring a warrant under the Fourth Amendment", "is_correct": true},
+        {"text": "A search constitutional under the Carroll automobile exception", "is_correct": false},
+        {"text": "A search constitutional because no physical intrusion occurred", "is_correct": false}
+      ],
+      "translation_zh_tw": "", "translation_zh_cn": "", "translation_en": "",
+      "explanation": "United States v. Jones (2012) held that physically attaching a GPS tracker to a vehicle is a 'search' because it constitutes physical trespass on a constitutionally protected area (Katz reasonable-expectation-of-privacy + Jones property-based test). Carpenter v. United States (2018) extended the warrant requirement to long-term cellphone location data — long-term comprehensive tracking is a search regardless of physical intrusion.",
+      "difficulty": 4,
+      "tags": "us-conlaw,fourth-amendment",
+      "source": "claude-authored-may-2026",
+      "provenance": "human_curated",
+      "attribution": "Claude PR #1. Cites United States v. Jones, 565 U.S. 400 (2012); Carpenter v. United States, 585 U.S. 296 (2018)."
+    },
+    {
+      "id": "usconlaw-038",
+      "kind": "grammar",
+      "level": "",
+      "stem": "Police lawfully arrest a suspect in his home and search the area within his immediate control (his 'wingspan'). The search is:",
+      "grammar_point": "4A — search incident to arrest (Chimel)",
+      "choices": [
+        {"text": "Unconstitutional because no warrant was obtained", "is_correct": false},
+        {"text": "Constitutional as a search incident to arrest", "is_correct": true},
+        {"text": "Unconstitutional because no exigent circumstances exist", "is_correct": false},
+        {"text": "Constitutional only with probable cause for the search itself", "is_correct": false}
+      ],
+      "translation_zh_tw": "", "translation_zh_cn": "", "translation_en": "",
+      "explanation": "Chimel v. California (1969) permits a warrantless search incident to a lawful arrest to (1) preserve evidence and (2) protect officer safety. Scope is limited to the arrestee's PERSON and the area within immediate control ('wingspan'). Riley v. California (2014) carved out cellphones — those generally require a warrant despite being on the arrestee's person.",
+      "difficulty": 3,
+      "tags": "us-conlaw,fourth-amendment,search-incident",
+      "source": "claude-authored-may-2026",
+      "provenance": "human_curated",
+      "attribution": "Claude PR #1. Cites Chimel v. California, 395 U.S. 752 (1969); Riley v. California, 573 U.S. 373 (2014)."
+    },
+    {
+      "id": "usconlaw-039",
+      "kind": "grammar",
+      "level": "",
+      "stem": "Police place a suspect in custody for questioning and begin interrogation without giving Miranda warnings. The suspect makes incriminating statements. The statements are most likely:",
+      "grammar_point": "5A — Miranda",
+      "choices": [
+        {"text": "Admissible if voluntary", "is_correct": false},
+        {"text": "Inadmissible under Miranda v. Arizona", "is_correct": true},
+        {"text": "Admissible if the suspect was given the warnings later", "is_correct": false},
+        {"text": "Admissible if the police acted in good faith", "is_correct": false}
+      ],
+      "translation_zh_tw": "", "translation_zh_cn": "", "translation_en": "",
+      "explanation": "Miranda v. Arizona (1966) requires that suspects in CUSTODY who are subject to INTERROGATION be informed of their rights (silence, counsel, etc.) before questioning. Statements made during un-Mirandized custodial interrogation are presumed involuntary and inadmissible in the prosecution's case-in-chief (though sometimes usable for impeachment per Harris v. New York).",
+      "difficulty": 3,
+      "tags": "us-conlaw,fifth-amendment,miranda",
+      "source": "claude-authored-may-2026",
+      "provenance": "human_curated",
+      "attribution": "Claude PR #1. Cites Miranda v. Arizona, 384 U.S. 436 (1966)."
+    },
+    {
+      "id": "usconlaw-040",
+      "kind": "grammar",
+      "level": "",
+      "stem": "A defendant is acquitted of bank robbery in state court. The federal government then prosecutes the same defendant for federal bank robbery arising from the same incident. The second prosecution is:",
+      "grammar_point": "5A — double jeopardy / dual sovereignty",
+      "choices": [
+        {"text": "Barred by the Double Jeopardy Clause", "is_correct": false},
+        {"text": "Permitted under the dual sovereignty doctrine", "is_correct": true},
+        {"text": "Permitted only with the defendant's consent", "is_correct": false},
+        {"text": "Barred unless the federal interest is 'substantial'", "is_correct": false}
+      ],
+      "translation_zh_tw": "", "translation_zh_cn": "", "translation_en": "",
+      "explanation": "The Dual Sovereignty doctrine permits successive prosecutions by separate sovereigns (state and federal governments) for the same conduct, even after acquittal in one. Gamble v. United States (2019) reaffirmed this principle. State and federal governments are separate sovereigns, each with its own interest in prosecuting offenses against its own laws.",
+      "difficulty": 3,
+      "tags": "us-conlaw,fifth-amendment,double-jeopardy",
+      "source": "claude-authored-may-2026",
+      "provenance": "human_curated",
+      "attribution": "Claude PR #1. Cites Gamble v. United States, 587 U.S. 678 (2019)."
+    },
+    {
+      "id": "usconlaw-041",
+      "kind": "grammar",
+      "level": "",
+      "stem": "At trial, the prosecution offers the recorded statement of an unavailable witness. The statement is testimonial (made to police during a formal investigation). The defendant had no prior opportunity to cross-examine. The statement is:",
+      "grammar_point": "6A — Confrontation Clause (Crawford)",
+      "choices": [
+        {"text": "Admissible under the residual hearsay exception", "is_correct": false},
+        {"text": "Inadmissible under the Confrontation Clause", "is_correct": true},
+        {"text": "Admissible if the witness is unavailable for valid reason", "is_correct": false},
+        {"text": "Admissible if the statement bears 'particularized guarantees of trustworthiness'", "is_correct": false}
+      ],
+      "translation_zh_tw": "", "translation_zh_cn": "", "translation_en": "",
+      "explanation": "Crawford v. Washington (2004) overruled the Ohio v. Roberts (1980) 'indicia of reliability' framework. The Confrontation Clause bars admission of TESTIMONIAL out-of-court statements unless (1) the declarant is unavailable AND (2) the defendant had a PRIOR OPPORTUNITY to cross-examine. Both must be met. Statements to police during investigation are typically testimonial.",
+      "difficulty": 4,
+      "tags": "us-conlaw,sixth-amendment,confrontation",
+      "source": "claude-authored-may-2026",
+      "provenance": "human_curated",
+      "attribution": "Claude PR #1. Cites Crawford v. Washington, 541 U.S. 36 (2004)."
+    },
+    {
+      "id": "usconlaw-042",
+      "kind": "grammar",
+      "level": "",
+      "stem": "A defendant is charged with a felony in state court. He is indigent and requests appointed counsel; the state refuses, citing budget constraints. The refusal is:",
+      "grammar_point": "6A — right to counsel (Gideon)",
+      "choices": [
+        {"text": "Constitutional because the right to counsel applies only in federal court", "is_correct": false},
+        {"text": "Unconstitutional under the Sixth Amendment as incorporated by the Fourteenth", "is_correct": true},
+        {"text": "Constitutional if the offense carries no possibility of imprisonment", "is_correct": false},
+        {"text": "Constitutional unless the defendant demonstrates likely innocence", "is_correct": false}
+      ],
+      "translation_zh_tw": "", "translation_zh_cn": "", "translation_en": "",
+      "explanation": "Gideon v. Wainwright (1963) held that the Sixth Amendment right to counsel applies in state felony prosecutions through incorporation into the 14A Due Process Clause. The state must provide appointed counsel to indigent defendants in any case where IMPRISONMENT is a possible penalty (extended to misdemeanors with imprisonment in Argersinger v. Hamlin, 1972).",
+      "difficulty": 2,
+      "tags": "us-conlaw,sixth-amendment,counsel",
+      "source": "claude-authored-may-2026",
+      "provenance": "human_curated",
+      "attribution": "Claude PR #1. Cites Gideon v. Wainwright, 372 U.S. 335 (1963); Argersinger v. Hamlin, 407 U.S. 25 (1972)."
+    },
+    {
+      "id": "usconlaw-043",
+      "kind": "grammar",
+      "level": "",
+      "stem": "A state imposes the death penalty for a crime not involving the death of a victim. The Supreme Court would most likely find this:",
+      "grammar_point": "8A — death penalty proportionality",
+      "choices": [
+        {"text": "Constitutional because the state has substantial deterrence interests", "is_correct": false},
+        {"text": "Unconstitutional as disproportionate punishment under the Eighth Amendment", "is_correct": true},
+        {"text": "Constitutional under traditional capital punishment doctrine", "is_correct": false},
+        {"text": "Constitutional only with bifurcated jury procedures", "is_correct": false}
+      ],
+      "translation_zh_tw": "", "translation_zh_cn": "", "translation_en": "",
+      "explanation": "The Eighth Amendment prohibits the death penalty for non-homicide crimes against individuals. Coker v. Georgia (1977) struck down the death penalty for the rape of an adult; Kennedy v. Louisiana (2008) struck down capital child rape. The Court applies 'evolving standards of decency' to determine proportionality.",
+      "difficulty": 3,
+      "tags": "us-conlaw,eighth-amendment",
+      "source": "claude-authored-may-2026",
+      "provenance": "human_curated",
+      "attribution": "Claude PR #1. Cites Coker v. Georgia, 433 U.S. 584 (1977); Kennedy v. Louisiana, 554 U.S. 407 (2008)."
+    },
+    {
+      "id": "usconlaw-044",
+      "kind": "grammar",
+      "level": "",
+      "stem": "Police obtain a search warrant based on a sworn affidavit. The warrant is later determined to be technically defective due to a magistrate's error. Evidence obtained from the search is offered at trial. Under the good faith exception:",
+      "grammar_point": "Exclusionary rule — good faith (Leon)",
+      "choices": [
+        {"text": "Inadmissible because the warrant was defective", "is_correct": false},
+        {"text": "Admissible because police acted in objective good faith reliance on the warrant", "is_correct": true},
+        {"text": "Inadmissible regardless of police belief", "is_correct": false},
+        {"text": "Admissible only if the defendant fails to object at trial", "is_correct": false}
+      ],
+      "translation_zh_tw": "", "translation_zh_cn": "", "translation_en": "",
+      "explanation": "United States v. Leon (1984) established the GOOD FAITH EXCEPTION to the exclusionary rule. Evidence obtained pursuant to a search warrant is admissible if executing officers act in OBJECTIVELY REASONABLE RELIANCE on the warrant, even if later found defective. The exclusionary rule's purpose (deterring police misconduct) is not served by suppression when police acted appropriately.",
+      "difficulty": 3,
+      "tags": "us-conlaw,fourth-amendment,exclusionary-rule",
+      "source": "claude-authored-may-2026",
+      "provenance": "human_curated",
+      "attribution": "Claude PR #1. Cites United States v. Leon, 468 U.S. 897 (1984)."
+    },
+    {
+      "id": "usconlaw-045",
+      "kind": "grammar",
+      "level": "",
+      "stem": "A plaintiff brings suit alleging a federal agency action violates federal environmental law. To establish Article III standing, the plaintiff must show:",
+      "grammar_point": "Standing — Lujan three-part test",
+      "choices": [
+        {"text": "A reasonable likelihood of success on the merits", "is_correct": false},
+        {"text": "Injury in fact, causation, and redressability", "is_correct": true},
+        {"text": "Diversity of citizenship between the parties", "is_correct": false},
+        {"text": "That the matter involves a 'case of federal interest'", "is_correct": false}
+      ],
+      "translation_zh_tw": "", "translation_zh_cn": "", "translation_en": "",
+      "explanation": "Lujan v. Defenders of Wildlife (1992) articulated the three 'irreducible constitutional minimum' elements: (1) INJURY IN FACT (concrete, particularized, actual or imminent); (2) CAUSATION (fairly traceable to challenged action); (3) REDRESSABILITY (likely to be redressed by favorable decision). All three must be shown for federal-court jurisdiction.",
+      "difficulty": 3,
+      "tags": "us-conlaw,justiciability,standing",
+      "source": "claude-authored-may-2026",
+      "provenance": "human_curated",
+      "attribution": "Claude PR #1. Cites Lujan v. Defenders of Wildlife, 504 U.S. 555 (1992)."
+    },
+    {
+      "id": "usconlaw-046",
+      "kind": "grammar",
+      "level": "",
+      "stem": "A pregnant plaintiff challenges a state law restricting access to abortion. The case takes years to litigate, and the plaintiff is no longer pregnant. Under the mootness doctrine:",
+      "grammar_point": "Mootness — capable of repetition yet evading review",
+      "choices": [
+        {"text": "The case is moot because the plaintiff no longer has a personal stake", "is_correct": false},
+        {"text": "The case is not moot under the 'capable of repetition yet evading review' exception", "is_correct": true},
+        {"text": "The case is moot because the plaintiff lacks standing", "is_correct": false},
+        {"text": "The case must be dismissed for lack of subject matter jurisdiction", "is_correct": false}
+      ],
+      "translation_zh_tw": "", "translation_zh_cn": "", "translation_en": "",
+      "explanation": "A case is normally moot when there's no longer a live controversy. The CAPABLE OF REPETITION YET EVADING REVIEW exception applies when (1) the duration of the action is too short to be fully litigated AND (2) there's a reasonable expectation the same complainant will be subjected to the same action again (Roe v. Wade applied this exception to pregnancy-related litigation).",
+      "difficulty": 3,
+      "tags": "us-conlaw,justiciability,mootness",
+      "source": "claude-authored-may-2026",
+      "provenance": "human_curated",
+      "attribution": "Claude PR #1. Cites Roe v. Wade, 410 U.S. 113, 125 (1973) (mootness exception application)."
+    },
+    {
+      "id": "usconlaw-047",
+      "kind": "grammar",
+      "level": "",
+      "stem": "A regulated company challenges a federal regulation before the regulation has been applied to its specific case. The agency has not initiated any enforcement action. The challenge is most likely:",
+      "grammar_point": "Ripeness — Abbott Laboratories test",
+      "choices": [
+        {"text": "Justiciable under the present-controversy doctrine", "is_correct": false},
+        {"text": "Not ripe for adjudication; the controversy is too abstract", "is_correct": true},
+        {"text": "Justiciable under the declaratory judgment principle", "is_correct": false},
+        {"text": "Premature only if the agency has not yet adopted the regulation", "is_correct": false}
+      ],
+      "translation_zh_tw": "", "translation_zh_cn": "", "translation_en": "",
+      "explanation": "Ripeness requires that the controversy be CONCRETE and not hypothetical. Pre-enforcement challenges generally require: (1) hardship to the parties from withholding judicial review AND (2) fitness of the issues for judicial decision (Abbott Laboratories v. Gardner, 1967). A regulation that hasn't been applied may be too abstract to adjudicate without further factual development.",
+      "difficulty": 4,
+      "tags": "us-conlaw,justiciability,ripeness",
+      "source": "claude-authored-may-2026",
+      "provenance": "human_curated",
+      "attribution": "Claude PR #1. Cites Abbott Laboratories v. Gardner, 387 U.S. 136 (1967)."
+    },
+    {
+      "id": "usconlaw-048",
+      "kind": "grammar",
+      "level": "",
+      "stem": "A senator challenges the constitutional adequacy of impeachment proceedings against him in the U.S. Senate. The case is most likely:",
+      "grammar_point": "Political question doctrine — Nixon v. United States",
+      "choices": [
+        {"text": "Justiciable as a routine constitutional question", "is_correct": false},
+        {"text": "Non-justiciable as a political question committed to the Senate", "is_correct": true},
+        {"text": "Justiciable under the case-or-controversy requirement", "is_correct": false},
+        {"text": "Justiciable if the Senate's procedures violate the Constitution", "is_correct": false}
+      ],
+      "translation_zh_tw": "", "translation_zh_cn": "", "translation_en": "",
+      "explanation": "Nixon v. United States (1993) (federal judge Walter Nixon's impeachment trial) held that challenges to Senate impeachment procedures present a NON-JUSTICIABLE POLITICAL QUESTION. The Constitution gives the Senate 'the sole Power to try all Impeachments.' Textual commitment to a coordinate branch + lack of judicially manageable standards → non-justiciable per Baker v. Carr's six-factor test.",
+      "difficulty": 4,
+      "tags": "us-conlaw,justiciability,political-question",
+      "source": "claude-authored-may-2026",
+      "provenance": "human_curated",
+      "attribution": "Claude PR #1. Cites Nixon v. United States, 506 U.S. 224 (1993); Baker v. Carr, 369 U.S. 186 (1962)."
+    },
+    {
+      "id": "usconlaw-049",
+      "kind": "grammar",
+      "level": "",
+      "stem": "A federal taxpayer challenges a federal expenditure that allegedly violates the Establishment Clause. Under Flast v. Cohen and recent Supreme Court doctrine, the taxpayer's standing:",
+      "grammar_point": "Standing — taxpayer (Flast / Hein)",
+      "choices": [
+        {"text": "Is precluded under the general taxpayer-standing rule", "is_correct": false},
+        {"text": "May exist if the challenge is to a congressional taxing-or-spending exercise that violates a specific constitutional limit on that power", "is_correct": true},
+        {"text": "Always exists for any constitutional challenge", "is_correct": false},
+        {"text": "Exists only if the taxpayer can show a unique personal injury", "is_correct": false}
+      ],
+      "translation_zh_tw": "", "translation_zh_cn": "", "translation_en": "",
+      "explanation": "Frothingham v. Mellon (1923) generally bars taxpayer standing as a 'generalized grievance.' Flast v. Cohen (1968) carved a NARROW exception for Establishment Clause challenges to CONGRESSIONAL exercises of the taxing/spending power. Hein v. Freedom From Religion Foundation (2007) and Arizona Christian School Tuition Org. v. Winn (2011) substantially narrowed Flast — executive expenditures and tax credits don't qualify.",
+      "difficulty": 5,
+      "tags": "us-conlaw,justiciability,standing,taxpayer",
+      "source": "claude-authored-may-2026",
+      "provenance": "human_curated",
+      "attribution": "Claude PR #1. Cites Flast v. Cohen, 392 U.S. 83 (1968); Hein v. Freedom From Religion Foundation, 551 U.S. 587 (2007)."
+    },
+    {
+      "id": "usconlaw-050",
+      "kind": "grammar",
+      "level": "",
+      "stem": "A plaintiff sues alleging that a federal program violates the Constitution but cannot show any concrete personal injury beyond shared concerns with all citizens. The plaintiff most likely:",
+      "grammar_point": "Standing — generalized grievance",
+      "choices": [
+        {"text": "Has standing because constitutional violations affect all citizens", "is_correct": false},
+        {"text": "Lacks standing because the injury is a generalized grievance", "is_correct": true},
+        {"text": "Has standing as a private attorney general", "is_correct": false},
+        {"text": "Has standing if the issue is sufficiently important", "is_correct": false}
+      ],
+      "translation_zh_tw": "", "translation_zh_cn": "", "translation_en": "",
+      "explanation": "Allen v. Wright (1984) and Lujan held that a 'generalized grievance' — an injury suffered by all citizens equally and indistinguishably — does not satisfy Article III standing's PARTICULARIZED INJURY requirement. The plaintiff must show injury that is concrete, particularized, and 'personal and individual.' Mere interest in proper governance is insufficient absent a concrete personal stake.",
+      "difficulty": 4,
+      "tags": "us-conlaw,justiciability,standing,generalized-grievance",
+      "source": "claude-authored-may-2026",
+      "provenance": "human_curated",
+      "attribution": "Claude PR #1. Cites Allen v. Wright, 468 U.S. 737 (1984); Lujan v. Defenders of Wildlife, 504 U.S. 555 (1992)."
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+# Fly.io app config for keiko-engine.
+#
+# IMPORTANT: change `app` to YOUR unique app name before first `fly launch`
+# (Fly app names must be globally unique). Suggestion: 'keiko-<your-handle>'.
+#
+# After editing app name + running `fly launch --no-deploy` once,
+# subsequent deploys are: `fly deploy`.
+
+app = "keiko-engine-CHANGE-ME"
+primary_region = "sjc"  # San Jose — swap to "iad", "nrt", "lhr", etc. as desired
+kill_signal = "SIGTERM"
+kill_timeout = "30s"
+
+[build]
+  # Uses the Dockerfile at repo root.
+
+[env]
+  # Default subject. Override via `fly secrets set STUDY_SUBJECT=<id>`
+  # if/when more subjects ship.
+  STUDY_SUBJECT = "us-conlaw"
+  THYMELEAF_CACHE = "true"     # cache enabled in prod (false in dev)
+
+[http_service]
+  internal_port = 8080
+  force_https = true
+  auto_stop_machines = "suspend"   # save free-tier hours when idle
+  auto_start_machines = true
+  min_machines_running = 0          # 0 = full sleep when idle; bump to 1 for always-on
+  processes = ["app"]
+
+  [[http_service.checks]]
+    interval = "30s"
+    timeout = "5s"
+    grace_period = "10s"
+    method = "GET"
+    path = "/api/pool-summary"
+
+[[vm]]
+  size = "shared-cpu-1x"   # Fly free tier: shared CPU, 256 MB RAM
+  memory = "256mb"
