@@ -16,7 +16,7 @@ plugins {
 }
 
 group = "io.tenka"
-version = "v0.5"
+version = "v0.6"
 
 java {
     toolchain {
