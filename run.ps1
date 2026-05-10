@@ -14,6 +14,7 @@
 
 param(
     [switch]$Test,
+    [switch]$NoPull,
     [string]$SubjectId = "us-conlaw"
 )
 
@@ -22,6 +23,21 @@ $ErrorActionPreference = "Stop"
 # Echo what we're about to do — visibility on long-running cmds is nice.
 Write-Host "→ keiko-engine local run" -ForegroundColor Cyan
 Write-Host "  STUDY_SUBJECT = $SubjectId"
+
+# Step 0: pull latest from main (skip with -NoPull when iterating on a feature branch).
+if (-not $NoPull) {
+    $branch = (git rev-parse --abbrev-ref HEAD).Trim()
+    if ($branch -ne "main") {
+        Write-Host "→ on branch '$branch' (not main); skipping git pull. Use -NoPull to silence." -ForegroundColor Yellow
+    } else {
+        Write-Host "→ git pull --ff-only" -ForegroundColor Cyan
+        git pull --ff-only
+        if ($LASTEXITCODE -ne 0) {
+            Write-Host "✗ git pull failed. Resolve and retry, or run with -NoPull." -ForegroundColor Red
+            exit $LASTEXITCODE
+        }
+    }
+}
 
 # Surface env to the bootRun task.
 $env:STUDY_SUBJECT = $SubjectId

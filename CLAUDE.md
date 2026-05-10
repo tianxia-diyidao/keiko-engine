@@ -66,16 +66,22 @@ Mark `provenance: human_curated` when citing well-settled black-letter doctrine 
 
 Every card MUST include at least one citation in the `citations` array, with `label` and `url`. Citation tier order:
 1. **SCOTUS first** — primary authority, always cited if a SCOTUS opinion is on point
-   - URL: `https://supreme.justia.com/cases/federal/us/<vol>/<page>/` (works for any year, including modern slip-ops mirrored after release)
-   - Alternative: `https://www.supremecourt.gov/opinions/<term>/...` for very recent (slip-op) opinions
-   - Alternative: `https://www.law.cornell.edu/supremecourt/text/<vol>/<page>` (Cornell LII, canonical)
 2. **Federal circuit courts** — supplement when the area is still developing or when a circuit split is heading to cert
-   - URL: `https://law.justia.com/cases/federal/appellate-courts/F3/<vol>/<page>/` (or similar)
 3. **Top law reviews** (secondary authority for scholarly treatment)
-   - **FAVORED**: University of Texas School of Law (Austin) — `https://texaslawreview.org/`
-   - **ESPECIALLY FAVORED**: UT Austin's *Review of Litigation* — `https://thereviewoflitigation.org/`
+   - **FAVORED**: University of Texas School of Law (Austin) — Texas Law Review
+   - **ESPECIALLY FAVORED**: UT Austin's *Review of Litigation*
    - Other top tier (in rough rank order): Harvard, Yale, Stanford, Columbia, Chicago, NYU, Penn, Virginia, Michigan
 4. **Type field** classifies the citation: `"scotus"` | `"circuit"` | `"law-review"` | `"other"` — drives the back-face marker (◆ SCt, ▲ CCA, ◇ LR, • other)
+
+**URL convention (PR #4 update — was Justia direct, now Google Search)**:
+
+```
+https://www.google.com/search?q=<urlencoded label>
+```
+
+Why: Justia's per-case URL pattern (`supreme.justia.com/cases/federal/us/<vol>/<page>/`) doesn't resolve for every case — particularly recent slip-opinions where the U.S. Reports volume hasn't been published yet (先輩 saw "Page not found" on a Justia link in v0.3). Google Search reliably surfaces the leading hit (often the official supremecourt.gov opinion, Justia, Cornell LII, Wikipedia summary). Inspired by the JLPT sibling's `reference_url` fallback for grammar points.
+
+Script-helpers (`scripts/add_pr*_*.py`) provide `cite_scotus()` / `cite_circuit()` / `cite_lr()` factories that build Google-search URLs from labels. New cards should always use these factories or call `google_url(label)` directly.
 
 The frontend renders citations as clickable links. Multiple citations are listed lead-authority first.
 
@@ -131,6 +137,7 @@ One-time setup per README. After that, `fly deploy` from local OR a GitHub Actio
 
 - v0.1 (PR #1): initial scaffold + 50 us-conlaw cards + 12 ZH motivation + Subject layer + Dockerfile + fly.toml + README + CLAUDE.md
 - v0.2 (PR #2 — even → JP): grading-bug fix (text-based grading; the v0.1 position-based grader misgraded shuffled choices) + 12 JP motivation entries (七転び八起き · 一期一会 · 継続は力なり · 為せば成る · 温故知新 · 初心忘るべからず · 不撓不屈 · 千里の道も一歩から · 案ずるより産むが易し · 急がば回れ · 雨垂れ石を穿つ · 人事を尽くして天命を待つ)
+- v0.4 (PR #4 — even → JP): Google Search URL fix (Justia URLs were 404ing on recent slip-ops; switched ALL 196 citation URLs to Google Search format) + run.ps1 / Makefile do `git pull --ff-only` first when on main + 50 NEW validated us-conlaw cards (cards 101-150: voting rights / 14A incorporation / 1A speech & religion / sex+LGBT+race EP / 4A criminal procedure / punitive damages DP / personal jurisdiction / recent SCOTUS — Sackett, Moore v. US, FDA v. Alliance) + 12 JP motivation entries (石の上にも三年 · 塵も積もれば · 良薬は口に苦し · 光陰矢の如し · 百聞は一見に如かず · 井の中の蛙 · 三人寄れば文殊 · 覆水盆に返らず · 情けは人の為ならず · 塞翁が馬 · 和を以て貴しと為す · 隗より始めよ)
 - v0.3 (PR #3 — odd → ZH): citations-with-links feature (Citation record + CardDto exposes them + JS renders as `<a target="_blank">` + CSS) + backfill of all 50 existing cards with citations + **50 NEW validated us-conlaw cards (cards 051-100)** spread across federalism / fed-courts / state sovereignty / sep-of-powers / 1A / EP-DP / **death penalty** / 4A-5A-6A / **8A** + 12 ZH motivation entries (業精於勤 · 天下大事必作於細 · 知者不惑 · 工欲善其事 · 玉不琢不成器 · 三人行必有我師焉 · 學而不思則罔 · 君子求諸己 · 勿以惡小而為之 · 自強不息 · 靜以修身 · 失之東隅) + CLAUDE.md §5.2 standing-rule update (50-cards/PR) + §5.2a citation policy (UT Austin / Review of Litigation favored)
 
 ## 10. The continuity rule
