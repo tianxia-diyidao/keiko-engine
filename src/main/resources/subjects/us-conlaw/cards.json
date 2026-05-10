@@ -6849,6 +6849,2241 @@
           "type": "scotus"
         }
       ]
+    },
+    {
+      "id": "usconlaw-151",
+      "kind": "grammar",
+      "level": "",
+      "stem": "Police, with probable cause to believe a vehicle contains contraband, search the vehicle without a warrant. Per Supreme Court doctrine, the search is most likely:",
+      "grammar_point": "Carroll automobile exception",
+      "choices": [
+        {
+          "text": "Unconstitutional without a warrant",
+          "is_correct": false
+        },
+        {
+          "text": "Constitutional under the automobile exception",
+          "is_correct": true
+        },
+        {
+          "text": "Constitutional only with consent",
+          "is_correct": false
+        },
+        {
+          "text": "Constitutional only after arrest",
+          "is_correct": false
+        }
+      ],
+      "translation_zh_tw": "",
+      "translation_zh_cn": "",
+      "translation_en": "",
+      "explanation": "Carroll v. United States (1925) established the automobile exception: vehicles' inherent mobility and reduced expectation of privacy permit warrantless searches if police have probable cause that the vehicle contains contraband or evidence of crime. The exception extends to the entire vehicle, including containers within (United States v. Ross). Mobility AND lower privacy expectation are both rationales.",
+      "difficulty": 3,
+      "tags": "us-conlaw,fourth-amendment,automobile-exception",
+      "source": "claude-authored-may-2026",
+      "provenance": "human_curated",
+      "attribution": "Claude PR #5 (validated bank). Awaiting expert review.",
+      "citations": [
+        {
+          "label": "Carroll v. United States, 267 U.S. 132 (1925)",
+          "url": "https://www.google.com/search?q=Carroll+v.+United+States%2C+267+U.S.+132+%281925%29",
+          "type": "scotus"
+        },
+        {
+          "label": "United States v. Ross, 456 U.S. 798 (1982)",
+          "url": "https://www.google.com/search?q=United+States+v.+Ross%2C+456+U.S.+798+%281982%29",
+          "type": "scotus"
+        }
+      ]
+    },
+    {
+      "id": "usconlaw-152",
+      "kind": "grammar",
+      "level": "",
+      "stem": "Police request consent to search a suspect's home without informing him he can refuse. The suspect agrees. Per Supreme Court doctrine, the consent is:",
+      "grammar_point": "Schneckloth voluntariness",
+      "choices": [
+        {
+          "text": "Per se invalid because the officer did not warn of the right to refuse",
+          "is_correct": false
+        },
+        {
+          "text": "Valid if voluntary under the totality of circumstances",
+          "is_correct": true
+        },
+        {
+          "text": "Valid only with written consent",
+          "is_correct": false
+        },
+        {
+          "text": "Valid only with Miranda-style warnings",
+          "is_correct": false
+        }
+      ],
+      "translation_zh_tw": "",
+      "translation_zh_cn": "",
+      "translation_en": "",
+      "explanation": "Schneckloth v. Bustamonte (1973) held that consent searches are valid if the consent was VOLUNTARY under the totality of circumstances. Officers need not affirmatively warn the subject of the right to refuse — though knowledge of that right is a factor in voluntariness. The Court rejected applying Miranda-style warnings to consent searches.",
+      "difficulty": 3,
+      "tags": "us-conlaw,fourth-amendment,consent",
+      "source": "claude-authored-may-2026",
+      "provenance": "human_curated",
+      "attribution": "Claude PR #5 (validated bank). Awaiting expert review.",
+      "citations": [
+        {
+          "label": "Schneckloth v. Bustamonte, 412 U.S. 218 (1973)",
+          "url": "https://www.google.com/search?q=Schneckloth+v.+Bustamonte%2C+412+U.S.+218+%281973%29",
+          "type": "scotus"
+        },
+        {
+          "label": "Florida v. Bostick, 501 U.S. 429 (1991)",
+          "url": "https://www.google.com/search?q=Florida+v.+Bostick%2C+501+U.S.+429+%281991%29",
+          "type": "scotus"
+        }
+      ]
+    },
+    {
+      "id": "usconlaw-153",
+      "kind": "grammar",
+      "level": "",
+      "stem": "An officer makes a traffic stop based on a minor traffic violation, intending the stop primarily to investigate suspected drug activity for which there is no probable cause. Per Supreme Court doctrine, the stop is:",
+      "grammar_point": "Whren v. United States",
+      "choices": [
+        {
+          "text": "Unconstitutional as pretextual",
+          "is_correct": false
+        },
+        {
+          "text": "Constitutional if there was an objectively valid reason for the stop",
+          "is_correct": true
+        },
+        {
+          "text": "Constitutional only if the officer was in uniform",
+          "is_correct": false
+        },
+        {
+          "text": "Constitutional only with reasonable suspicion of drug activity",
+          "is_correct": false
+        }
+      ],
+      "translation_zh_tw": "",
+      "translation_zh_cn": "",
+      "translation_en": "",
+      "explanation": "Whren v. United States (1996) held that traffic stops are constitutional if the officer had probable cause to believe a traffic violation occurred — regardless of the officer's subjective motivations. Subjective intent is irrelevant to Fourth Amendment validity if there is an objectively valid basis. Equal-protection challenges to selective enforcement remain available but require different proof.",
+      "difficulty": 3,
+      "tags": "us-conlaw,fourth-amendment,pretext",
+      "source": "claude-authored-may-2026",
+      "provenance": "human_curated",
+      "attribution": "Claude PR #5 (validated bank). Awaiting expert review.",
+      "citations": [
+        {
+          "label": "Whren v. United States, 517 U.S. 806 (1996)",
+          "url": "https://www.google.com/search?q=Whren+v.+United+States%2C+517+U.S.+806+%281996%29",
+          "type": "scotus"
+        }
+      ]
+    },
+    {
+      "id": "usconlaw-154",
+      "kind": "grammar",
+      "level": "",
+      "stem": "An officer completes a traffic stop's purpose but extends the stop several minutes to await a drug-detection dog. Per Supreme Court doctrine, the extension is:",
+      "grammar_point": "Rodriguez extension rule",
+      "choices": [
+        {
+          "text": "Constitutional if reasonable in scope",
+          "is_correct": false
+        },
+        {
+          "text": "Unconstitutional absent independent reasonable suspicion",
+          "is_correct": true
+        },
+        {
+          "text": "Constitutional under Whren",
+          "is_correct": false
+        },
+        {
+          "text": "Constitutional with the driver's consent (presumed from silence)",
+          "is_correct": false
+        }
+      ],
+      "translation_zh_tw": "",
+      "translation_zh_cn": "",
+      "translation_en": "",
+      "explanation": "Rodriguez v. United States (2015) held that a traffic stop becomes unlawful if it is prolonged beyond the time reasonably required to complete the stop's mission, absent INDEPENDENT reasonable suspicion of other criminal activity. A dog sniff that extends the stop, without separate reasonable suspicion of drug activity, violates the Fourth Amendment.",
+      "difficulty": 3,
+      "tags": "us-conlaw,fourth-amendment,traffic-stops",
+      "source": "claude-authored-may-2026",
+      "provenance": "human_curated",
+      "attribution": "Claude PR #5 (validated bank). Awaiting expert review.",
+      "citations": [
+        {
+          "label": "Rodriguez v. United States, 575 U.S. 348 (2015)",
+          "url": "https://www.google.com/search?q=Rodriguez+v.+United+States%2C+575+U.S.+348+%282015%29",
+          "type": "scotus"
+        },
+        {
+          "label": "Illinois v. Caballes, 543 U.S. 405 (2005)",
+          "url": "https://www.google.com/search?q=Illinois+v.+Caballes%2C+543+U.S.+405+%282005%29",
+          "type": "scotus"
+        }
+      ]
+    },
+    {
+      "id": "usconlaw-155",
+      "kind": "grammar",
+      "level": "",
+      "stem": "An officer approaches a person on a public sidewalk and asks questions. The person is free to walk away. Per Supreme Court doctrine, the encounter is:",
+      "grammar_point": "Mendenhall test",
+      "choices": [
+        {
+          "text": "A 4A seizure requiring justification",
+          "is_correct": false
+        },
+        {
+          "text": "Not a seizure — no Fourth Amendment implications until the officer's conduct constrains the person's liberty",
+          "is_correct": true
+        },
+        {
+          "text": "Constitutional only with reasonable suspicion",
+          "is_correct": false
+        },
+        {
+          "text": "Constitutional only with consent",
+          "is_correct": false
+        }
+      ],
+      "translation_zh_tw": "",
+      "translation_zh_cn": "",
+      "translation_en": "",
+      "explanation": "United States v. Mendenhall (1980) established that a person is 'seized' for Fourth Amendment purposes only when, by means of physical force or show of authority, the officer has restrained the person's liberty such that a reasonable person would not feel free to leave. Mere approach + questioning is not a seizure. Bostick refined this for confined spaces (a reasonable person would feel free to terminate the encounter).",
+      "difficulty": 3,
+      "tags": "us-conlaw,fourth-amendment,seizure",
+      "source": "claude-authored-may-2026",
+      "provenance": "human_curated",
+      "attribution": "Claude PR #5 (validated bank). Awaiting expert review.",
+      "citations": [
+        {
+          "label": "United States v. Mendenhall, 446 U.S. 544 (1980)",
+          "url": "https://www.google.com/search?q=United+States+v.+Mendenhall%2C+446+U.S.+544+%281980%29",
+          "type": "scotus"
+        },
+        {
+          "label": "Florida v. Bostick, 501 U.S. 429 (1991)",
+          "url": "https://www.google.com/search?q=Florida+v.+Bostick%2C+501+U.S.+429+%281991%29",
+          "type": "scotus"
+        }
+      ]
+    },
+    {
+      "id": "usconlaw-156",
+      "kind": "grammar",
+      "level": "",
+      "stem": "Police officers board a stationary bus and approach passengers individually, asking if they consent to a search. Per Supreme Court doctrine, the encounter is:",
+      "grammar_point": "Drayton / Bostick — bus encounters",
+      "choices": [
+        {
+          "text": "A per se seizure because the bus is a confined space",
+          "is_correct": false
+        },
+        {
+          "text": "Not a seizure if a reasonable passenger would feel free to terminate the encounter",
+          "is_correct": true
+        },
+        {
+          "text": "Unconstitutional without individualized suspicion",
+          "is_correct": false
+        },
+        {
+          "text": "Constitutional only with consent obtained at the bus station",
+          "is_correct": false
+        }
+      ],
+      "translation_zh_tw": "",
+      "translation_zh_cn": "",
+      "translation_en": "",
+      "explanation": "United States v. Drayton (2002) and Florida v. Bostick (1991) held that police-passenger encounters on buses are not Fourth Amendment seizures unless a reasonable passenger would feel UNABLE to terminate the encounter. The passenger's freedom-to-leave analysis adapts to the confined context: would a reasonable person feel free to refuse the request and decline to consent?",
+      "difficulty": 3,
+      "tags": "us-conlaw,fourth-amendment,seizure",
+      "source": "claude-authored-may-2026",
+      "provenance": "human_curated",
+      "attribution": "Claude PR #5 (validated bank). Awaiting expert review.",
+      "citations": [
+        {
+          "label": "United States v. Drayton, 536 U.S. 194 (2002)",
+          "url": "https://www.google.com/search?q=United+States+v.+Drayton%2C+536+U.S.+194+%282002%29",
+          "type": "scotus"
+        },
+        {
+          "label": "Florida v. Bostick, 501 U.S. 429 (1991)",
+          "url": "https://www.google.com/search?q=Florida+v.+Bostick%2C+501+U.S.+429+%281991%29",
+          "type": "scotus"
+        }
+      ]
+    },
+    {
+      "id": "usconlaw-157",
+      "kind": "grammar",
+      "level": "",
+      "stem": "Police obtain evidence through an unconstitutional search and use that evidence to develop additional, otherwise-untainted leads. The defendant moves to suppress all evidence derived from the original illegality. Per Supreme Court doctrine, the additional evidence is:",
+      "grammar_point": "Wong Sun / fruit of poisonous tree",
+      "choices": [
+        {
+          "text": "Always admissible if obtained from independent investigation",
+          "is_correct": false
+        },
+        {
+          "text": "Inadmissible as 'fruit of the poisonous tree' unless an exception applies",
+          "is_correct": true
+        },
+        {
+          "text": "Always admissible if not obtained directly from the illegal search",
+          "is_correct": false
+        },
+        {
+          "text": "Subject to harmless-error review only",
+          "is_correct": false
+        }
+      ],
+      "translation_zh_tw": "",
+      "translation_zh_cn": "",
+      "translation_en": "",
+      "explanation": "Wong Sun v. United States (1963) established the 'fruit of the poisonous tree' doctrine: evidence derived from an unconstitutional search is generally inadmissible, but exceptions include (1) independent source, (2) inevitable discovery, (3) attenuation. The exclusionary rule extends to indirect derivative evidence to deter Fourth Amendment violations.",
+      "difficulty": 3,
+      "tags": "us-conlaw,fourth-amendment,exclusionary-rule",
+      "source": "claude-authored-may-2026",
+      "provenance": "human_curated",
+      "attribution": "Claude PR #5 (validated bank). Awaiting expert review.",
+      "citations": [
+        {
+          "label": "Wong Sun v. United States, 371 U.S. 471 (1963)",
+          "url": "https://www.google.com/search?q=Wong+Sun+v.+United+States%2C+371+U.S.+471+%281963%29",
+          "type": "scotus"
+        },
+        {
+          "label": "Murray v. United States, 487 U.S. 533 (1988)",
+          "url": "https://www.google.com/search?q=Murray+v.+United+States%2C+487+U.S.+533+%281988%29",
+          "type": "scotus"
+        }
+      ]
+    },
+    {
+      "id": "usconlaw-158",
+      "kind": "grammar",
+      "level": "",
+      "stem": "Police make an unconstitutional entry to a home, observe contraband, then later return with a valid warrant based on independent information not derived from the entry. Per Supreme Court doctrine, evidence seized under the warrant is:",
+      "grammar_point": "Murray v. United States",
+      "choices": [
+        {
+          "text": "Always inadmissible as fruit of the poisonous tree",
+          "is_correct": false
+        },
+        {
+          "text": "Admissible under the independent-source doctrine if the warrant was based on lawfully-obtained information",
+          "is_correct": true
+        },
+        {
+          "text": "Admissible only if the entry was made in good faith",
+          "is_correct": false
+        },
+        {
+          "text": "Admissible only with attenuation showing",
+          "is_correct": false
+        }
+      ],
+      "translation_zh_tw": "",
+      "translation_zh_cn": "",
+      "translation_en": "",
+      "explanation": "Murray v. United States (1988) clarified the independent-source doctrine: even when officers initially make an unconstitutional entry, evidence later seized under a warrant supported by an independent lawful source is admissible. The key is that the warrant's probable-cause basis must not derive from the unconstitutional entry.",
+      "difficulty": 3,
+      "tags": "us-conlaw,fourth-amendment,independent-source",
+      "source": "claude-authored-may-2026",
+      "provenance": "human_curated",
+      "attribution": "Claude PR #5 (validated bank). Awaiting expert review.",
+      "citations": [
+        {
+          "label": "Murray v. United States, 487 U.S. 533 (1988)",
+          "url": "https://www.google.com/search?q=Murray+v.+United+States%2C+487+U.S.+533+%281988%29",
+          "type": "scotus"
+        },
+        {
+          "label": "Segura v. United States, 468 U.S. 796 (1984)",
+          "url": "https://www.google.com/search?q=Segura+v.+United+States%2C+468+U.S.+796+%281984%29",
+          "type": "scotus"
+        }
+      ]
+    },
+    {
+      "id": "usconlaw-159",
+      "kind": "grammar",
+      "level": "",
+      "stem": "Police lawfully stop a person they suspect of involvement in a crime and demand his name. The state has a stop-and-identify statute. Per Supreme Court doctrine, the demand is:",
+      "grammar_point": "Hiibel",
+      "choices": [
+        {
+          "text": "Per se unconstitutional under the Fourth and Fifth Amendments",
+          "is_correct": false
+        },
+        {
+          "text": "Constitutional if the stop was lawful and the identification statute is reasonable",
+          "is_correct": true
+        },
+        {
+          "text": "Constitutional only with Miranda warnings",
+          "is_correct": false
+        },
+        {
+          "text": "Constitutional only after arrest",
+          "is_correct": false
+        }
+      ],
+      "translation_zh_tw": "",
+      "translation_zh_cn": "",
+      "translation_en": "",
+      "explanation": "Hiibel v. Sixth Judicial District Court of Nevada (2004) upheld Nevada's stop-and-identify statute requiring detained persons (during a lawful Terry stop) to identify themselves. The Court held the statute does not violate the Fourth Amendment (request was during lawful stop) or the Fifth Amendment self-incrimination privilege (mere identification is not testimonial in this context).",
+      "difficulty": 3,
+      "tags": "us-conlaw,fifth-amendment,stop-and-identify",
+      "source": "claude-authored-may-2026",
+      "provenance": "human_curated",
+      "attribution": "Claude PR #5 (validated bank). Awaiting expert review.",
+      "citations": [
+        {
+          "label": "Hiibel v. Sixth Judicial District Court of Nevada, 542 U.S. 177 (2004)",
+          "url": "https://www.google.com/search?q=Hiibel+v.+Sixth+Judicial+District+Court+of+Nevada%2C+542+U.S.+177+%282004%29",
+          "type": "scotus"
+        },
+        {
+          "label": "Terry v. Ohio, 392 U.S. 1 (1968)",
+          "url": "https://www.google.com/search?q=Terry+v.+Ohio%2C+392+U.S.+1+%281968%29",
+          "type": "scotus"
+        }
+      ]
+    },
+    {
+      "id": "usconlaw-160",
+      "kind": "grammar",
+      "level": "",
+      "stem": "During a non-custodial police interview, the suspect remains silent in response to certain questions but does not invoke his Fifth Amendment privilege. The prosecution offers the silence as substantive evidence of guilt. Per Supreme Court doctrine, the silence is most likely:",
+      "grammar_point": "Salinas v. Texas",
+      "choices": [
+        {
+          "text": "Inadmissible because silence cannot be used against a defendant",
+          "is_correct": false
+        },
+        {
+          "text": "Admissible because the suspect did not expressly invoke the privilege in a non-custodial setting",
+          "is_correct": true
+        },
+        {
+          "text": "Inadmissible under Miranda v. Arizona",
+          "is_correct": false
+        },
+        {
+          "text": "Subject to harmless-error review only",
+          "is_correct": false
+        }
+      ],
+      "translation_zh_tw": "",
+      "translation_zh_cn": "",
+      "translation_en": "",
+      "explanation": "Salinas v. Texas (2013) held that a defendant's pre-arrest, pre-Miranda silence in a non-custodial interview is admissible as substantive evidence of guilt UNLESS the defendant expressly invokes the Fifth Amendment privilege. Miranda's protections kick in only at custodial interrogation; pre-Miranda silence in voluntary encounters does not automatically invoke the privilege.",
+      "difficulty": 3,
+      "tags": "us-conlaw,fifth-amendment,silence",
+      "source": "claude-authored-may-2026",
+      "provenance": "human_curated",
+      "attribution": "Claude PR #5 (validated bank). Awaiting expert review.",
+      "citations": [
+        {
+          "label": "Salinas v. Texas, 570 U.S. 178 (2013)",
+          "url": "https://www.google.com/search?q=Salinas+v.+Texas%2C+570+U.S.+178+%282013%29",
+          "type": "scotus"
+        }
+      ]
+    },
+    {
+      "id": "usconlaw-161",
+      "kind": "grammar",
+      "level": "",
+      "stem": "Police give Miranda warnings to a suspect who then sits silently for nearly 3 hours of questioning before finally answering one question. Per Supreme Court doctrine, the answer is most likely:",
+      "grammar_point": "Berghuis v. Thompkins",
+      "choices": [
+        {
+          "text": "Inadmissible because the suspect's prolonged silence invoked his Miranda right to remain silent",
+          "is_correct": false
+        },
+        {
+          "text": "Admissible because the suspect did not unambiguously invoke his right to remain silent",
+          "is_correct": true
+        },
+        {
+          "text": "Inadmissible under the Sixth Amendment",
+          "is_correct": false
+        },
+        {
+          "text": "Admissible only with re-Mirandizing",
+          "is_correct": false
+        }
+      ],
+      "translation_zh_tw": "",
+      "translation_zh_cn": "",
+      "translation_en": "",
+      "explanation": "Berghuis v. Thompkins (2010) held that to invoke the Miranda right to remain silent, a suspect must do so UNAMBIGUOUSLY. Mere silence — even prolonged — does not invoke the right; without an unambiguous invocation, police may continue questioning. A subsequent statement can be admissible. This parallels Davis v. United States (1994) for unambiguous invocation of counsel.",
+      "difficulty": 3,
+      "tags": "us-conlaw,fifth-amendment,miranda",
+      "source": "claude-authored-may-2026",
+      "provenance": "human_curated",
+      "attribution": "Claude PR #5 (validated bank). Awaiting expert review.",
+      "citations": [
+        {
+          "label": "Berghuis v. Thompkins, 560 U.S. 370 (2010)",
+          "url": "https://www.google.com/search?q=Berghuis+v.+Thompkins%2C+560+U.S.+370+%282010%29",
+          "type": "scotus"
+        },
+        {
+          "label": "Davis v. United States, 512 U.S. 452 (1994)",
+          "url": "https://www.google.com/search?q=Davis+v.+United+States%2C+512+U.S.+452+%281994%29",
+          "type": "scotus"
+        }
+      ]
+    },
+    {
+      "id": "usconlaw-162",
+      "kind": "grammar",
+      "level": "",
+      "stem": "A criminal defendant's trial is delayed for 5 years between indictment and trial. He alleges a Sixth Amendment speedy-trial violation. Per Supreme Court doctrine, the analysis applies:",
+      "grammar_point": "Barker v. Wingo",
+      "choices": [
+        {
+          "text": "A bright-line one-year-from-indictment rule",
+          "is_correct": false
+        },
+        {
+          "text": "The Barker v. Wingo four-factor balancing test",
+          "is_correct": true
+        },
+        {
+          "text": "Strict scrutiny",
+          "is_correct": false
+        },
+        {
+          "text": "The Mathews v. Eldridge test",
+          "is_correct": false
+        }
+      ],
+      "translation_zh_tw": "",
+      "translation_zh_cn": "",
+      "translation_en": "",
+      "explanation": "Barker v. Wingo (1972) established the four-factor balancing test for Sixth Amendment speedy-trial claims: (1) length of delay (must be presumptively prejudicial to trigger analysis); (2) reason for the delay (deliberate? negligent? justified?); (3) defendant's assertion of the right; (4) prejudice to the defendant. No factor is dispositive.",
+      "difficulty": 3,
+      "tags": "us-conlaw,sixth-amendment,speedy-trial",
+      "source": "claude-authored-may-2026",
+      "provenance": "human_curated",
+      "attribution": "Claude PR #5 (validated bank). Awaiting expert review.",
+      "citations": [
+        {
+          "label": "Barker v. Wingo, 407 U.S. 514 (1972)",
+          "url": "https://www.google.com/search?q=Barker+v.+Wingo%2C+407+U.S.+514+%281972%29",
+          "type": "scotus"
+        },
+        {
+          "label": "Doggett v. United States, 505 U.S. 647 (1992)",
+          "url": "https://www.google.com/search?q=Doggett+v.+United+States%2C+505+U.S.+647+%281992%29",
+          "type": "scotus"
+        }
+      ]
+    },
+    {
+      "id": "usconlaw-163",
+      "kind": "grammar",
+      "level": "",
+      "stem": "A criminal defendant is arrested 8.5 years after indictment. Most of the delay is due to government negligence; the defendant did not know of the indictment. Per Supreme Court doctrine, the speedy-trial claim is:",
+      "grammar_point": "Doggett v. United States",
+      "choices": [
+        {
+          "text": "Defeated because the defendant did not assert his rights",
+          "is_correct": false
+        },
+        {
+          "text": "Sustained — extreme government-attributable delay creates presumed prejudice",
+          "is_correct": true
+        },
+        {
+          "text": "Defeated because no actual prejudice was shown",
+          "is_correct": false
+        },
+        {
+          "text": "Subject to harmless-error review",
+          "is_correct": false
+        }
+      ],
+      "translation_zh_tw": "",
+      "translation_zh_cn": "",
+      "translation_en": "",
+      "explanation": "Doggett v. United States (1992) held that extreme government-attributable delay (8.5 years of negligent post-indictment delay) supports a Sixth Amendment violation even without proof of specific prejudice. Presumptive prejudice from extreme delay outweighs the absence of demonstrated harm or the defendant's late assertion of the right (he didn't know of the indictment).",
+      "difficulty": 3,
+      "tags": "us-conlaw,sixth-amendment,speedy-trial",
+      "source": "claude-authored-may-2026",
+      "provenance": "human_curated",
+      "attribution": "Claude PR #5 (validated bank). Awaiting expert review.",
+      "citations": [
+        {
+          "label": "Doggett v. United States, 505 U.S. 647 (1992)",
+          "url": "https://www.google.com/search?q=Doggett+v.+United+States%2C+505+U.S.+647+%281992%29",
+          "type": "scotus"
+        },
+        {
+          "label": "Barker v. Wingo, 407 U.S. 514 (1972)",
+          "url": "https://www.google.com/search?q=Barker+v.+Wingo%2C+407+U.S.+514+%281972%29",
+          "type": "scotus"
+        }
+      ]
+    },
+    {
+      "id": "usconlaw-164",
+      "kind": "grammar",
+      "level": "",
+      "stem": "At a criminal trial, the prosecution offers a forensic analyst's lab report as evidence of the substance's identity, without calling the analyst. Per Supreme Court doctrine, the report is most likely:",
+      "grammar_point": "Bullcoming / Melendez-Diaz",
+      "choices": [
+        {
+          "text": "Admissible under the business-records exception",
+          "is_correct": false
+        },
+        {
+          "text": "Inadmissible under the Confrontation Clause unless the analyst testifies and is cross-examinable",
+          "is_correct": true
+        },
+        {
+          "text": "Admissible if the report is reliable",
+          "is_correct": false
+        },
+        {
+          "text": "Admissible only if the substance is non-perishable",
+          "is_correct": false
+        }
+      ],
+      "translation_zh_tw": "",
+      "translation_zh_cn": "",
+      "translation_en": "",
+      "explanation": "Bullcoming v. New Mexico (2011) and Melendez-Diaz v. Massachusetts (2009) held that forensic lab reports are TESTIMONIAL hearsay subject to the Confrontation Clause. The actual analyst (not a substitute) must testify and be subject to cross-examination, unless the analyst is unavailable AND the defendant had a prior opportunity to cross-examine. Williams v. Illinois (2012) created some confusion via fragmented holdings.",
+      "difficulty": 3,
+      "tags": "us-conlaw,sixth-amendment,confrontation",
+      "source": "claude-authored-may-2026",
+      "provenance": "human_curated",
+      "attribution": "Claude PR #5 (validated bank). Awaiting expert review.",
+      "citations": [
+        {
+          "label": "Bullcoming v. New Mexico, 564 U.S. 647 (2011)",
+          "url": "https://www.google.com/search?q=Bullcoming+v.+New+Mexico%2C+564+U.S.+647+%282011%29",
+          "type": "scotus"
+        },
+        {
+          "label": "Melendez-Diaz v. Massachusetts, 557 U.S. 305 (2009)",
+          "url": "https://www.google.com/search?q=Melendez-Diaz+v.+Massachusetts%2C+557+U.S.+305+%282009%29",
+          "type": "scotus"
+        }
+      ]
+    },
+    {
+      "id": "usconlaw-165",
+      "kind": "grammar",
+      "level": "",
+      "stem": "A state criminalizes the status of being addicted to narcotics, regardless of any conduct. Per Supreme Court doctrine, the law is most likely:",
+      "grammar_point": "Robinson v. California",
+      "choices": [
+        {
+          "text": "Constitutional under the state's police power",
+          "is_correct": false
+        },
+        {
+          "text": "Unconstitutional under the Eighth Amendment as criminalizing status",
+          "is_correct": true
+        },
+        {
+          "text": "Constitutional with treatment alternatives",
+          "is_correct": false
+        },
+        {
+          "text": "Subject to rational basis review",
+          "is_correct": false
+        }
+      ],
+      "translation_zh_tw": "",
+      "translation_zh_cn": "",
+      "translation_en": "",
+      "explanation": "Robinson v. California (1962) struck down a California law criminalizing the STATUS of being addicted to narcotics. The Court held that punishing a person for a status (rather than conduct) violates the Eighth Amendment. Powell v. Texas (1968) limited Robinson, allowing punishment for related conduct (public intoxication) even if the conduct is compelled by the status.",
+      "difficulty": 3,
+      "tags": "us-conlaw,eighth-amendment,status-crimes",
+      "source": "claude-authored-may-2026",
+      "provenance": "human_curated",
+      "attribution": "Claude PR #5 (validated bank). Awaiting expert review.",
+      "citations": [
+        {
+          "label": "Robinson v. California, 370 U.S. 660 (1962)",
+          "url": "https://www.google.com/search?q=Robinson+v.+California%2C+370+U.S.+660+%281962%29",
+          "type": "scotus"
+        },
+        {
+          "label": "Powell v. Texas, 392 U.S. 514 (1968)",
+          "url": "https://www.google.com/search?q=Powell+v.+Texas%2C+392+U.S.+514+%281968%29",
+          "type": "scotus"
+        }
+      ]
+    },
+    {
+      "id": "usconlaw-166",
+      "kind": "grammar",
+      "level": "",
+      "stem": "Congress strips a citizen of U.S. nationality as punishment for desertion in wartime. Per Supreme Court doctrine, the punishment is most likely:",
+      "grammar_point": "Trop v. Dulles",
+      "choices": [
+        {
+          "text": "Constitutional under Congress's war powers",
+          "is_correct": false
+        },
+        {
+          "text": "Unconstitutional under the Eighth Amendment",
+          "is_correct": true
+        },
+        {
+          "text": "Constitutional under the Necessary and Proper Clause",
+          "is_correct": false
+        },
+        {
+          "text": "Subject to rational basis review",
+          "is_correct": false
+        }
+      ],
+      "translation_zh_tw": "",
+      "translation_zh_cn": "",
+      "translation_en": "",
+      "explanation": "Trop v. Dulles (1958) struck down denationalization as punishment for desertion. The Court held that loss of citizenship is 'a fate forbidden by the principle of civilized treatment guaranteed by the Eighth Amendment.' Chief Justice Warren articulated the 'evolving standards of decency' framework that has shaped modern Eighth Amendment doctrine.",
+      "difficulty": 3,
+      "tags": "us-conlaw,eighth-amendment",
+      "source": "claude-authored-may-2026",
+      "provenance": "human_curated",
+      "attribution": "Claude PR #5 (validated bank). Awaiting expert review.",
+      "citations": [
+        {
+          "label": "Trop v. Dulles, 356 U.S. 86 (1958)",
+          "url": "https://www.google.com/search?q=Trop+v.+Dulles%2C+356+U.S.+86+%281958%29",
+          "type": "scotus"
+        }
+      ]
+    },
+    {
+      "id": "usconlaw-167",
+      "kind": "grammar",
+      "level": "",
+      "stem": "A state imposes a sentence of life without parole on a juvenile (under 18) for a non-homicide offense. Per Supreme Court doctrine, the sentence is most likely:",
+      "grammar_point": "Graham v. Florida",
+      "choices": [
+        {
+          "text": "Constitutional because non-homicide does not eliminate sentencing options",
+          "is_correct": false
+        },
+        {
+          "text": "Unconstitutional under the Eighth Amendment for non-homicide juveniles",
+          "is_correct": true
+        },
+        {
+          "text": "Constitutional with discretionary sentencing",
+          "is_correct": false
+        },
+        {
+          "text": "Subject to harmless-error review",
+          "is_correct": false
+        }
+      ],
+      "translation_zh_tw": "",
+      "translation_zh_cn": "",
+      "translation_en": "",
+      "explanation": "Graham v. Florida (2010) held that the Eighth Amendment categorically prohibits LWOP for juveniles in NON-HOMICIDE cases. The Court relied on (1) diminished culpability of juveniles (Roper) and (2) the categorical nature of life-without-parole as the most serious non-death sentence. Miller v. Alabama (2012) extended this approach to mandatory LWOP for juvenile homicide offenses.",
+      "difficulty": 3,
+      "tags": "us-conlaw,eighth-amendment,juveniles",
+      "source": "claude-authored-may-2026",
+      "provenance": "human_curated",
+      "attribution": "Claude PR #5 (validated bank). Awaiting expert review.",
+      "citations": [
+        {
+          "label": "Graham v. Florida, 560 U.S. 48 (2010)",
+          "url": "https://www.google.com/search?q=Graham+v.+Florida%2C+560+U.S.+48+%282010%29",
+          "type": "scotus"
+        },
+        {
+          "label": "Miller v. Alabama, 567 U.S. 460 (2012)",
+          "url": "https://www.google.com/search?q=Miller+v.+Alabama%2C+567+U.S.+460+%282012%29",
+          "type": "scotus"
+        }
+      ]
+    },
+    {
+      "id": "usconlaw-168",
+      "kind": "grammar",
+      "level": "",
+      "stem": "Foreign nationals detained at Guantanamo Bay seek habeas review in federal court. Per Supreme Court doctrine, the federal habeas statute:",
+      "grammar_point": "Rasul v. Bush",
+      "choices": [
+        {
+          "text": "Does not extend to non-citizens detained outside U.S. sovereign territory",
+          "is_correct": false
+        },
+        {
+          "text": "Extends to detainees at Guantanamo because the U.S. exercises complete jurisdiction and control there",
+          "is_correct": true
+        },
+        {
+          "text": "Applies only after a military commission determines status",
+          "is_correct": false
+        },
+        {
+          "text": "Is preempted by AUMF",
+          "is_correct": false
+        }
+      ],
+      "translation_zh_tw": "",
+      "translation_zh_cn": "",
+      "translation_en": "",
+      "explanation": "Rasul v. Bush (2004) held that the federal habeas statute (28 U.S.C. § 2241) extends to non-citizen detainees at Guantanamo Bay, where the U.S. exercises complete jurisdiction and control. Boumediene v. Bush (2008) later held that the SUSPENSION CLAUSE itself extends to Guantanamo detainees, and the Detainee Treatment Act's habeas-substitute was inadequate.",
+      "difficulty": 3,
+      "tags": "us-conlaw,habeas,detention",
+      "source": "claude-authored-may-2026",
+      "provenance": "human_curated",
+      "attribution": "Claude PR #5 (validated bank). Awaiting expert review.",
+      "citations": [
+        {
+          "label": "Rasul v. Bush, 542 U.S. 466 (2004)",
+          "url": "https://www.google.com/search?q=Rasul+v.+Bush%2C+542+U.S.+466+%282004%29",
+          "type": "scotus"
+        },
+        {
+          "label": "Boumediene v. Bush, 553 U.S. 723 (2008)",
+          "url": "https://www.google.com/search?q=Boumediene+v.+Bush%2C+553+U.S.+723+%282008%29",
+          "type": "scotus"
+        }
+      ]
+    },
+    {
+      "id": "usconlaw-169",
+      "kind": "grammar",
+      "level": "",
+      "stem": "A U.S. citizen captured abroad is detained by the military as an 'enemy combatant' without formal charges. Per Supreme Court doctrine, the citizen is entitled to:",
+      "grammar_point": "Hamdi v. Rumsfeld",
+      "choices": [
+        {
+          "text": "No process because the President's war powers are absolute",
+          "is_correct": false
+        },
+        {
+          "text": "Notice of the factual basis and an opportunity to rebut before a neutral decision-maker",
+          "is_correct": true
+        },
+        {
+          "text": "A full criminal trial",
+          "is_correct": false
+        },
+        {
+          "text": "Immediate release",
+          "is_correct": false
+        }
+      ],
+      "translation_zh_tw": "",
+      "translation_zh_cn": "",
+      "translation_en": "",
+      "explanation": "Hamdi v. Rumsfeld (2004) held that a U.S. citizen detained as an enemy combatant has due process rights to (1) notice of the factual basis for classification AND (2) a fair opportunity to rebut before a neutral decision-maker. The military may not detain citizens indefinitely without process. Justice O'Connor's plurality applied Mathews v. Eldridge balancing.",
+      "difficulty": 3,
+      "tags": "us-conlaw,due-process,detention",
+      "source": "claude-authored-may-2026",
+      "provenance": "human_curated",
+      "attribution": "Claude PR #5 (validated bank). Awaiting expert review.",
+      "citations": [
+        {
+          "label": "Hamdi v. Rumsfeld, 542 U.S. 507 (2004)",
+          "url": "https://www.google.com/search?q=Hamdi+v.+Rumsfeld%2C+542+U.S.+507+%282004%29",
+          "type": "scotus"
+        },
+        {
+          "label": "Mathews v. Eldridge, 424 U.S. 319 (1976)",
+          "url": "https://www.google.com/search?q=Mathews+v.+Eldridge%2C+424+U.S.+319+%281976%29",
+          "type": "scotus"
+        }
+      ]
+    },
+    {
+      "id": "usconlaw-170",
+      "kind": "grammar",
+      "level": "",
+      "stem": "Congress passes legislation purporting to strip federal courts of habeas jurisdiction over Guantanamo detainees and substituting limited military review. Per Supreme Court doctrine, the legislation is most likely:",
+      "grammar_point": "Boumediene v. Bush",
+      "choices": [
+        {
+          "text": "Constitutional under Congress's Article I § 8 power to create and abolish lower courts",
+          "is_correct": false
+        },
+        {
+          "text": "Unconstitutional under the Suspension Clause unless the substitute provides equivalent protection",
+          "is_correct": true
+        },
+        {
+          "text": "Constitutional under Article I § 9 cl. 2 in time of war",
+          "is_correct": false
+        },
+        {
+          "text": "Subject to rational basis review",
+          "is_correct": false
+        }
+      ],
+      "translation_zh_tw": "",
+      "translation_zh_cn": "",
+      "translation_en": "",
+      "explanation": "Boumediene v. Bush (2008) held that the Suspension Clause (Art. I § 9 cl. 2) extends to Guantanamo detainees, and the Detainee Treatment Act's substitute review procedures were not an adequate substitute for habeas. Congress can suspend habeas only 'when in Cases of Rebellion or Invasion the public Safety may require it' — and substitutes for habeas must provide equivalent procedural protection.",
+      "difficulty": 3,
+      "tags": "us-conlaw,habeas,suspension-clause",
+      "source": "claude-authored-may-2026",
+      "provenance": "human_curated",
+      "attribution": "Claude PR #5 (validated bank). Awaiting expert review.",
+      "citations": [
+        {
+          "label": "Boumediene v. Bush, 553 U.S. 723 (2008)",
+          "url": "https://www.google.com/search?q=Boumediene+v.+Bush%2C+553+U.S.+723+%282008%29",
+          "type": "scotus"
+        }
+      ]
+    },
+    {
+      "id": "usconlaw-171",
+      "kind": "grammar",
+      "level": "",
+      "stem": "A city restricts the height of new construction, reducing the economic value of a developer's planned project but not eliminating all economic use. Per Supreme Court doctrine, the regulation is analyzed under:",
+      "grammar_point": "Penn Central test",
+      "choices": [
+        {
+          "text": "The per se rule for physical takings",
+          "is_correct": false
+        },
+        {
+          "text": "The Penn Central three-factor balancing test for regulatory takings",
+          "is_correct": true
+        },
+        {
+          "text": "Strict scrutiny",
+          "is_correct": false
+        },
+        {
+          "text": "Rational basis review",
+          "is_correct": false
+        }
+      ],
+      "translation_zh_tw": "",
+      "translation_zh_cn": "",
+      "translation_en": "",
+      "explanation": "Penn Central Transportation Co. v. New York City (1978) is the foundational regulatory-takings case. The three-factor analysis: (1) economic impact on the claimant; (2) interference with reasonable investment-backed expectations; (3) character of the government action (e.g., physical invasion vs. general regulatory program). The Court upheld Penn Central historic-preservation restrictions on Grand Central Terminal.",
+      "difficulty": 3,
+      "tags": "us-conlaw,5a,takings,regulatory",
+      "source": "claude-authored-may-2026",
+      "provenance": "human_curated",
+      "attribution": "Claude PR #5 (validated bank). Awaiting expert review.",
+      "citations": [
+        {
+          "label": "Penn Central Transp. Co. v. New York City, 438 U.S. 104 (1978)",
+          "url": "https://www.google.com/search?q=Penn+Central+Transp.+Co.+v.+New+York+City%2C+438+U.S.+104+%281978%29",
+          "type": "scotus"
+        }
+      ]
+    },
+    {
+      "id": "usconlaw-172",
+      "kind": "grammar",
+      "level": "",
+      "stem": "A city uses eminent domain to transfer private property from one owner to another for a comprehensive economic-development plan. Per Supreme Court doctrine, the taking is:",
+      "grammar_point": "Kelo v. New London",
+      "choices": [
+        {
+          "text": "Per se unconstitutional as not a 'public use'",
+          "is_correct": false
+        },
+        {
+          "text": "Constitutional if the taking serves a 'public purpose' even if the property is transferred to another private party",
+          "is_correct": true
+        },
+        {
+          "text": "Constitutional only if the new owner is a public utility",
+          "is_correct": false
+        },
+        {
+          "text": "Subject to strict scrutiny",
+          "is_correct": false
+        }
+      ],
+      "translation_zh_tw": "",
+      "translation_zh_cn": "",
+      "translation_en": "",
+      "explanation": "Kelo v. City of New London (2005) upheld eminent-domain transfers from one private party to another as part of a comprehensive economic-development plan. The Court interpreted 'public use' broadly as 'public purpose,' deferring to legislative judgments about economic-development needs. Many states subsequently restricted eminent domain by state statute or constitution in response.",
+      "difficulty": 3,
+      "tags": "us-conlaw,5a,takings,public-use",
+      "source": "claude-authored-may-2026",
+      "provenance": "human_curated",
+      "attribution": "Claude PR #5 (validated bank). Awaiting expert review.",
+      "citations": [
+        {
+          "label": "Kelo v. City of New London, 545 U.S. 469 (2005)",
+          "url": "https://www.google.com/search?q=Kelo+v.+City+of+New+London%2C+545+U.S.+469+%282005%29",
+          "type": "scotus"
+        }
+      ]
+    },
+    {
+      "id": "usconlaw-173",
+      "kind": "grammar",
+      "level": "",
+      "stem": "A state regulation deprives a property owner of ALL economically beneficial use of his land. Per Supreme Court doctrine, the regulation is most likely:",
+      "grammar_point": "Lucas v. SC Coastal Council",
+      "choices": [
+        {
+          "text": "Constitutional if rationally related to public welfare",
+          "is_correct": false
+        },
+        {
+          "text": "A per se taking unless the regulation merely codifies common-law nuisance principles",
+          "is_correct": true
+        },
+        {
+          "text": "Subject to Penn Central balancing",
+          "is_correct": false
+        },
+        {
+          "text": "Subject to rational basis review",
+          "is_correct": false
+        }
+      ],
+      "translation_zh_tw": "",
+      "translation_zh_cn": "",
+      "translation_en": "",
+      "explanation": "Lucas v. South Carolina Coastal Council (1992) established a per se takings rule when a regulation deprives the owner of all economically beneficial use, UNLESS the regulation merely codifies background principles of state property law (e.g., common-law nuisance). The Court found beachfront-construction prohibitions worked a total-deprivation taking.",
+      "difficulty": 3,
+      "tags": "us-conlaw,5a,takings,total-deprivation",
+      "source": "claude-authored-may-2026",
+      "provenance": "human_curated",
+      "attribution": "Claude PR #5 (validated bank). Awaiting expert review.",
+      "citations": [
+        {
+          "label": "Lucas v. South Carolina Coastal Council, 505 U.S. 1003 (1992)",
+          "url": "https://www.google.com/search?q=Lucas+v.+South+Carolina+Coastal+Council%2C+505+U.S.+1003+%281992%29",
+          "type": "scotus"
+        }
+      ]
+    },
+    {
+      "id": "usconlaw-174",
+      "kind": "grammar",
+      "level": "",
+      "stem": "An owner holds two adjacent lots; a state regulation severely restricts use of one but not the other. The owner argues the analysis should focus on the restricted lot alone. Per Supreme Court doctrine, the relevant parcel is determined by:",
+      "grammar_point": "Murr v. Wisconsin",
+      "choices": [
+        {
+          "text": "The owner's preferred parcel definition",
+          "is_correct": false
+        },
+        {
+          "text": "A multi-factor analysis considering treatment under state law, physical characteristics, and economic prospects",
+          "is_correct": true
+        },
+        {
+          "text": "Whichever parcel is most affected",
+          "is_correct": false
+        },
+        {
+          "text": "The smaller of the two lots",
+          "is_correct": false
+        }
+      ],
+      "translation_zh_tw": "",
+      "translation_zh_cn": "",
+      "translation_en": "",
+      "explanation": "Murr v. Wisconsin (2017) held that the 'relevant parcel' for regulatory-takings analysis is determined by a multi-factor inquiry: state law treatment, physical characteristics of the property, and reasonable expectations regarding the parcel as a whole. The Court rejected both lot-line-based formalism and pure 'parcel-as-a-whole' approaches.",
+      "difficulty": 3,
+      "tags": "us-conlaw,5a,takings,relevant-parcel",
+      "source": "claude-authored-may-2026",
+      "provenance": "human_curated",
+      "attribution": "Claude PR #5 (validated bank). Awaiting expert review.",
+      "citations": [
+        {
+          "label": "Murr v. Wisconsin, 582 U.S. 383 (2017)",
+          "url": "https://www.google.com/search?q=Murr+v.+Wisconsin%2C+582+U.S.+383+%282017%29",
+          "type": "scotus"
+        }
+      ]
+    },
+    {
+      "id": "usconlaw-175",
+      "kind": "grammar",
+      "level": "",
+      "stem": "A state regulation grants union organizers a right to enter agricultural employers' property to communicate with workers. Per recent Supreme Court doctrine, the regulation is most likely:",
+      "grammar_point": "Cedar Point Nursery",
+      "choices": [
+        {
+          "text": "Constitutional under the state's labor-relations interest",
+          "is_correct": false
+        },
+        {
+          "text": "A per se physical taking requiring just compensation",
+          "is_correct": true
+        },
+        {
+          "text": "Constitutional under Penn Central balancing",
+          "is_correct": false
+        },
+        {
+          "text": "Subject to rational basis review",
+          "is_correct": false
+        }
+      ],
+      "translation_zh_tw": "",
+      "translation_zh_cn": "",
+      "translation_en": "",
+      "explanation": "Cedar Point Nursery v. Hassid (2021) held that California's regulation granting union organizers access to agricultural employers' property was a PER SE PHYSICAL TAKING. The Court treated even a temporary, intermittent right of physical access as a categorical taking, not subject to Penn Central balancing. The right to exclude is a fundamental property right.",
+      "difficulty": 3,
+      "tags": "us-conlaw,5a,takings,physical",
+      "source": "claude-authored-may-2026",
+      "provenance": "human_curated",
+      "attribution": "Claude PR #5 (validated bank). Awaiting expert review.",
+      "citations": [
+        {
+          "label": "Cedar Point Nursery v. Hassid, 594 U.S. 139 (2021)",
+          "url": "https://www.google.com/search?q=Cedar+Point+Nursery+v.+Hassid%2C+594+U.S.+139+%282021%29",
+          "type": "scotus"
+        }
+      ]
+    },
+    {
+      "id": "usconlaw-176",
+      "kind": "grammar",
+      "level": "",
+      "stem": "Massachusetts sues EPA alleging the agency failed to regulate greenhouse-gas emissions. EPA challenges the state's standing. Per Supreme Court doctrine, the state most likely:",
+      "grammar_point": "Massachusetts v. EPA",
+      "choices": [
+        {
+          "text": "Lacks standing because climate harms are too generalized",
+          "is_correct": false
+        },
+        {
+          "text": "Has standing as a SOVEREIGN with quasi-sovereign interests, accorded special solicitude",
+          "is_correct": true
+        },
+        {
+          "text": "Has standing only if it shows traditional Article III injury",
+          "is_correct": false
+        },
+        {
+          "text": "Lacks standing under the political question doctrine",
+          "is_correct": false
+        }
+      ],
+      "translation_zh_tw": "",
+      "translation_zh_cn": "",
+      "translation_en": "",
+      "explanation": "Massachusetts v. EPA (2007) held that the state had Article III standing to challenge EPA's denial of a rulemaking petition on greenhouse-gas emissions. States, as sovereigns with quasi-sovereign interests in their territory and citizens, are accorded SPECIAL SOLICITUDE in standing analysis. The Court found injury (loss of coastal land), causation, and redressability.",
+      "difficulty": 3,
+      "tags": "us-conlaw,standing,states",
+      "source": "claude-authored-may-2026",
+      "provenance": "human_curated",
+      "attribution": "Claude PR #5 (validated bank). Awaiting expert review.",
+      "citations": [
+        {
+          "label": "Massachusetts v. EPA, 549 U.S. 497 (2007)",
+          "url": "https://www.google.com/search?q=Massachusetts+v.+EPA%2C+549+U.S.+497+%282007%29",
+          "type": "scotus"
+        }
+      ]
+    },
+    {
+      "id": "usconlaw-177",
+      "kind": "grammar",
+      "level": "",
+      "stem": "A class action challenges a credit-reporting agency's inaccurate alerts. Many class members never had their inaccurate reports disseminated to third parties. Per recent Supreme Court doctrine, those uninjured class members:",
+      "grammar_point": "TransUnion v. Ramirez",
+      "choices": [
+        {
+          "text": "Have standing because the statutory violation alone constitutes injury",
+          "is_correct": false
+        },
+        {
+          "text": "Lack Article III standing — concrete harm requires more than statutory violation alone",
+          "is_correct": true
+        },
+        {
+          "text": "Have standing under FCRA",
+          "is_correct": false
+        },
+        {
+          "text": "Have standing only as named plaintiffs",
+          "is_correct": false
+        }
+      ],
+      "translation_zh_tw": "",
+      "translation_zh_cn": "",
+      "translation_en": "",
+      "explanation": "TransUnion LLC v. Ramirez (2021) held that statutory violations alone do not confer Article III standing; the plaintiff must show CONCRETE harm. For class members whose inaccurate reports were never disseminated to third parties, no concrete reputational harm occurred. The Court tightened Spokeo's concrete-injury requirement, particularly for statutory standing claims.",
+      "difficulty": 3,
+      "tags": "us-conlaw,standing,concrete-injury",
+      "source": "claude-authored-may-2026",
+      "provenance": "human_curated",
+      "attribution": "Claude PR #5 (validated bank). Awaiting expert review.",
+      "citations": [
+        {
+          "label": "TransUnion LLC v. Ramirez, 594 U.S. 413 (2021)",
+          "url": "https://www.google.com/search?q=TransUnion+LLC+v.+Ramirez%2C+594+U.S.+413+%282021%29",
+          "type": "scotus"
+        },
+        {
+          "label": "Spokeo, Inc. v. Robins, 578 U.S. 330 (2016)",
+          "url": "https://www.google.com/search?q=Spokeo%2C+Inc.+v.+Robins%2C+578+U.S.+330+%282016%29",
+          "type": "scotus"
+        }
+      ]
+    },
+    {
+      "id": "usconlaw-178",
+      "kind": "grammar",
+      "level": "",
+      "stem": "A state sues to block the federal government's discretionary enforcement priorities, alleging the policies create downstream administrative burdens. Per recent Supreme Court doctrine, the state's standing is:",
+      "grammar_point": "US v. Texas (2023) — non-enforcement standing",
+      "choices": [
+        {
+          "text": "Strong because states have special solicitude under Massachusetts v. EPA",
+          "is_correct": false
+        },
+        {
+          "text": "Doubtful where the state's claimed injury depends on the federal government's choice not to enforce",
+          "is_correct": true
+        },
+        {
+          "text": "Automatic under the parens patriae doctrine",
+          "is_correct": false
+        },
+        {
+          "text": "Established by general taxpayer standing",
+          "is_correct": false
+        }
+      ],
+      "translation_zh_tw": "",
+      "translation_zh_cn": "",
+      "translation_en": "",
+      "explanation": "United States v. Texas (2023) held that Texas and Louisiana lacked Article III standing to challenge the federal immigration-enforcement policy guidelines. The Court emphasized that NON-ENFORCEMENT challenges (challenges to the executive's enforcement discretion) face significant standing hurdles, particularly where the alleged injury is downstream of the executive's discretionary choice not to act.",
+      "difficulty": 3,
+      "tags": "us-conlaw,standing,states",
+      "source": "claude-authored-may-2026",
+      "provenance": "human_curated",
+      "attribution": "Claude PR #5 (validated bank). Awaiting expert review.",
+      "citations": [
+        {
+          "label": "United States v. Texas, 599 U.S. 670 (2023)",
+          "url": "https://www.google.com/search?q=United+States+v.+Texas%2C+599+U.S.+670+%282023%29",
+          "type": "scotus"
+        }
+      ]
+    },
+    {
+      "id": "usconlaw-179",
+      "kind": "grammar",
+      "level": "",
+      "stem": "A reporter is subpoenaed to testify before a grand jury about confidential sources. He invokes a 1A privilege to refuse. Per Supreme Court doctrine, the privilege:",
+      "grammar_point": "Branzburg v. Hayes",
+      "choices": [
+        {
+          "text": "Exists as a robust constitutional shield for journalists",
+          "is_correct": false
+        },
+        {
+          "text": "Does not exist under the First Amendment for federal grand jury subpoenas",
+          "is_correct": true
+        },
+        {
+          "text": "Applies only in civil cases",
+          "is_correct": false
+        },
+        {
+          "text": "Applies after attempted use of less-intrusive means",
+          "is_correct": false
+        }
+      ],
+      "translation_zh_tw": "",
+      "translation_zh_cn": "",
+      "translation_en": "",
+      "explanation": "Branzburg v. Hayes (1972) held that the First Amendment does not shield journalists from federal grand-jury subpoenas seeking confidential-source information. Justice Powell's concurrence (the operative narrowing) suggested case-by-case balancing. Many states and federal circuits have adopted shield laws or limited common-law privileges; no robust federal constitutional privilege exists.",
+      "difficulty": 3,
+      "tags": "us-conlaw,first-amendment,press-privilege",
+      "source": "claude-authored-may-2026",
+      "provenance": "human_curated",
+      "attribution": "Claude PR #5 (validated bank). Awaiting expert review.",
+      "citations": [
+        {
+          "label": "Branzburg v. Hayes, 408 U.S. 665 (1972)",
+          "url": "https://www.google.com/search?q=Branzburg+v.+Hayes%2C+408+U.S.+665+%281972%29",
+          "type": "scotus"
+        }
+      ]
+    },
+    {
+      "id": "usconlaw-180",
+      "kind": "grammar",
+      "level": "",
+      "stem": "A trial court closes a criminal trial to the press and public. Per Supreme Court doctrine, the closure is most likely:",
+      "grammar_point": "Richmond Newspapers",
+      "choices": [
+        {
+          "text": "Per se constitutional under the trial court's discretion",
+          "is_correct": false
+        },
+        {
+          "text": "Unconstitutional unless narrowly tailored to a compelling government interest",
+          "is_correct": true
+        },
+        {
+          "text": "Subject to rational basis review",
+          "is_correct": false
+        },
+        {
+          "text": "Constitutional only with the defendant's consent",
+          "is_correct": false
+        }
+      ],
+      "translation_zh_tw": "",
+      "translation_zh_cn": "",
+      "translation_en": "",
+      "explanation": "Richmond Newspapers v. Virginia (1980) held that the public and press have a First Amendment right of access to criminal trials. Closure orders must be narrowly tailored to serve a compelling interest (e.g., witness safety, juvenile sensitivity). Press-Enterprise (I & II) extended this access right to voir dire and preliminary hearings.",
+      "difficulty": 3,
+      "tags": "us-conlaw,first-amendment,press-access",
+      "source": "claude-authored-may-2026",
+      "provenance": "human_curated",
+      "attribution": "Claude PR #5 (validated bank). Awaiting expert review.",
+      "citations": [
+        {
+          "label": "Richmond Newspapers v. Virginia, 448 U.S. 555 (1980)",
+          "url": "https://www.google.com/search?q=Richmond+Newspapers+v.+Virginia%2C+448+U.S.+555+%281980%29",
+          "type": "scotus"
+        },
+        {
+          "label": "Press-Enterprise Co. v. Superior Court, 478 U.S. 1 (1986)",
+          "url": "https://www.google.com/search?q=Press-Enterprise+Co.+v.+Superior+Court%2C+478+U.S.+1+%281986%29",
+          "type": "scotus"
+        }
+      ]
+    },
+    {
+      "id": "usconlaw-181",
+      "kind": "grammar",
+      "level": "",
+      "stem": "A state medical school reserves a fixed number of admission slots for racial minorities in a quota system. Per Supreme Court doctrine, the program is most likely:",
+      "grammar_point": "Bakke / quotas",
+      "choices": [
+        {
+          "text": "Constitutional under intermediate scrutiny",
+          "is_correct": false
+        },
+        {
+          "text": "Unconstitutional as a fixed quota; race may be a 'plus' factor but not a quota",
+          "is_correct": true
+        },
+        {
+          "text": "Constitutional under the Necessary and Proper Clause",
+          "is_correct": false
+        },
+        {
+          "text": "Subject to rational basis review",
+          "is_correct": false
+        }
+      ],
+      "translation_zh_tw": "",
+      "translation_zh_cn": "",
+      "translation_en": "",
+      "explanation": "Regents of UC v. Bakke (1978) struck down UC Davis's quota system but Justice Powell's controlling opinion permitted race as a 'plus' factor in admissions to serve diversity. This narrow rationale survived for decades — Grutter v. Bollinger (2003) reaffirmed it for graduate admissions; Gratz v. Bollinger (2003) struck down a mechanical points system. SFFA (2023) effectively ended race-conscious admissions.",
+      "difficulty": 3,
+      "tags": "us-conlaw,equal-protection,affirmative-action",
+      "source": "claude-authored-may-2026",
+      "provenance": "human_curated",
+      "attribution": "Claude PR #5 (validated bank). Awaiting expert review.",
+      "citations": [
+        {
+          "label": "Regents of UC v. Bakke, 438 U.S. 265 (1978)",
+          "url": "https://www.google.com/search?q=Regents+of+UC+v.+Bakke%2C+438+U.S.+265+%281978%29",
+          "type": "scotus"
+        },
+        {
+          "label": "Students for Fair Admissions v. Harvard, 600 U.S. 181 (2023)",
+          "url": "https://www.google.com/search?q=Students+for+Fair+Admissions+v.+Harvard%2C+600+U.S.+181+%282023%29",
+          "type": "scotus"
+        }
+      ]
+    },
+    {
+      "id": "usconlaw-182",
+      "kind": "grammar",
+      "level": "",
+      "stem": "A state university uses a points system that automatically awards 20 points (out of 150) to applicants from underrepresented racial minorities. Per Supreme Court doctrine, the system is most likely:",
+      "grammar_point": "Gratz v. Bollinger",
+      "choices": [
+        {
+          "text": "Constitutional as race being merely a 'plus' factor",
+          "is_correct": false
+        },
+        {
+          "text": "Unconstitutional because it functions as a near-quota for race",
+          "is_correct": true
+        },
+        {
+          "text": "Constitutional under intermediate scrutiny",
+          "is_correct": false
+        },
+        {
+          "text": "Constitutional under educational deference",
+          "is_correct": false
+        }
+      ],
+      "translation_zh_tw": "",
+      "translation_zh_cn": "",
+      "translation_en": "",
+      "explanation": "Gratz v. Bollinger (2003) struck down University of Michigan's UNDERGRADUATE point-system, which awarded 20 points to underrepresented minority applicants out of a 100-point admission threshold. The mechanical, decisive impact of race per applicant violated narrow tailoring. Grutter (2003) upheld Michigan's law-school individualized-review system the same day.",
+      "difficulty": 3,
+      "tags": "us-conlaw,equal-protection,affirmative-action",
+      "source": "claude-authored-may-2026",
+      "provenance": "human_curated",
+      "attribution": "Claude PR #5 (validated bank). Awaiting expert review.",
+      "citations": [
+        {
+          "label": "Gratz v. Bollinger, 539 U.S. 244 (2003)",
+          "url": "https://www.google.com/search?q=Gratz+v.+Bollinger%2C+539+U.S.+244+%282003%29",
+          "type": "scotus"
+        },
+        {
+          "label": "Grutter v. Bollinger, 539 U.S. 306 (2003)",
+          "url": "https://www.google.com/search?q=Grutter+v.+Bollinger%2C+539+U.S.+306+%282003%29",
+          "type": "scotus"
+        }
+      ]
+    },
+    {
+      "id": "usconlaw-183",
+      "kind": "grammar",
+      "level": "",
+      "stem": "A challenge to a public university's race-conscious admissions program asserts that strict scrutiny was applied with insufficient rigor. Per Supreme Court doctrine, the appropriate analysis:",
+      "grammar_point": "Fisher v. UT — strict scrutiny rigor",
+      "choices": [
+        {
+          "text": "Defers to the university's good-faith determination",
+          "is_correct": false
+        },
+        {
+          "text": "Requires NO deference and rigorous, searching judicial review",
+          "is_correct": true
+        },
+        {
+          "text": "Applies intermediate scrutiny",
+          "is_correct": false
+        },
+        {
+          "text": "Applies rational basis review",
+          "is_correct": false
+        }
+      ],
+      "translation_zh_tw": "",
+      "translation_zh_cn": "",
+      "translation_en": "",
+      "explanation": "Fisher v. University of Texas (Fisher I, 2013) held that lower courts had given improper deference to the university; strict scrutiny requires NO deference on whether race-conscious admissions are narrowly tailored. The university bears the burden of demonstrating necessity. Fisher II (2016) ultimately upheld UT's program but on a thin record. SFFA (2023) effectively ended this line.",
+      "difficulty": 3,
+      "tags": "us-conlaw,equal-protection,affirmative-action",
+      "source": "claude-authored-may-2026",
+      "provenance": "human_curated",
+      "attribution": "Claude PR #5 (validated bank). Awaiting expert review.",
+      "citations": [
+        {
+          "label": "Fisher v. University of Texas, 570 U.S. 297 (2013) (Fisher I)",
+          "url": "https://www.google.com/search?q=Fisher+v.+University+of+Texas%2C+570+U.S.+297+%282013%29+%28Fisher+I%29",
+          "type": "scotus"
+        },
+        {
+          "label": "Fisher v. University of Texas, 579 U.S. 365 (2016) (Fisher II)",
+          "url": "https://www.google.com/search?q=Fisher+v.+University+of+Texas%2C+579+U.S.+365+%282016%29+%28Fisher+II%29",
+          "type": "scotus"
+        },
+        {
+          "label": "Texas Law Review — Fisher / SFFA scholarship",
+          "url": "https://www.google.com/search?q=Texas+Law+Review+%E2%80%94+Fisher+%2F+SFFA+scholarship",
+          "type": "law-review"
+        }
+      ]
+    },
+    {
+      "id": "usconlaw-184",
+      "kind": "grammar",
+      "level": "",
+      "stem": "A state's voting district has a bizarre, irregular shape that can only be explained by attempting to gather minority voters into one district. Per Supreme Court doctrine, the district is reviewed under:",
+      "grammar_point": "Shaw v. Reno",
+      "choices": [
+        {
+          "text": "Rational basis review",
+          "is_correct": false
+        },
+        {
+          "text": "Strict scrutiny because it constitutes a racial classification",
+          "is_correct": true
+        },
+        {
+          "text": "Intermediate scrutiny",
+          "is_correct": false
+        },
+        {
+          "text": "The political question doctrine",
+          "is_correct": false
+        }
+      ],
+      "translation_zh_tw": "",
+      "translation_zh_cn": "",
+      "translation_en": "",
+      "explanation": "Shaw v. Reno (1993) held that race-conscious legislative districting that subordinates traditional districting principles to race triggers strict scrutiny under the Equal Protection Clause. Bizarre, irregular shapes that can only be explained by race signal racial gerrymandering. Even majority-minority districts justified by VRA compliance may face strict scrutiny.",
+      "difficulty": 3,
+      "tags": "us-conlaw,equal-protection,redistricting",
+      "source": "claude-authored-may-2026",
+      "provenance": "human_curated",
+      "attribution": "Claude PR #5 (validated bank). Awaiting expert review.",
+      "citations": [
+        {
+          "label": "Shaw v. Reno, 509 U.S. 630 (1993)",
+          "url": "https://www.google.com/search?q=Shaw+v.+Reno%2C+509+U.S.+630+%281993%29",
+          "type": "scotus"
+        },
+        {
+          "label": "Miller v. Johnson, 515 U.S. 900 (1995)",
+          "url": "https://www.google.com/search?q=Miller+v.+Johnson%2C+515+U.S.+900+%281995%29",
+          "type": "scotus"
+        }
+      ]
+    },
+    {
+      "id": "usconlaw-185",
+      "kind": "grammar",
+      "level": "",
+      "stem": "A challenger to a redistricting plan must show that race was the PREDOMINANT factor in drawing district lines. Per Supreme Court doctrine, this burden is established by:",
+      "grammar_point": "Miller v. Johnson",
+      "choices": [
+        {
+          "text": "Showing any consideration of race",
+          "is_correct": false
+        },
+        {
+          "text": "Showing that race subordinated other traditional districting criteria",
+          "is_correct": true
+        },
+        {
+          "text": "Showing reduced minority voting strength",
+          "is_correct": false
+        },
+        {
+          "text": "Showing intent to discriminate",
+          "is_correct": false
+        }
+      ],
+      "translation_zh_tw": "",
+      "translation_zh_cn": "",
+      "translation_en": "",
+      "explanation": "Miller v. Johnson (1995) refined Shaw v. Reno: the challenger must show that RACE was the PREDOMINANT factor — that race subordinated traditional, race-neutral districting principles (compactness, contiguity, respect for political subdivisions, communities of interest). Mere consideration of race is not enough; it must be the predominant motivator.",
+      "difficulty": 3,
+      "tags": "us-conlaw,equal-protection,redistricting",
+      "source": "claude-authored-may-2026",
+      "provenance": "human_curated",
+      "attribution": "Claude PR #5 (validated bank). Awaiting expert review.",
+      "citations": [
+        {
+          "label": "Miller v. Johnson, 515 U.S. 900 (1995)",
+          "url": "https://www.google.com/search?q=Miller+v.+Johnson%2C+515+U.S.+900+%281995%29",
+          "type": "scotus"
+        },
+        {
+          "label": "Bush v. Vera, 517 U.S. 952 (1996)",
+          "url": "https://www.google.com/search?q=Bush+v.+Vera%2C+517+U.S.+952+%281996%29",
+          "type": "scotus"
+        }
+      ]
+    },
+    {
+      "id": "usconlaw-186",
+      "kind": "grammar",
+      "level": "",
+      "stem": "A state defends a race-conscious district as motivated by partisan considerations rather than race. Per recent Supreme Court doctrine, the analysis must:",
+      "grammar_point": "Cooper v. Harris",
+      "choices": [
+        {
+          "text": "Defer to the state's race-neutral explanation",
+          "is_correct": false
+        },
+        {
+          "text": "Disentangle race and politics — when they substantially correlate, careful inquiry is required",
+          "is_correct": true
+        },
+        {
+          "text": "Apply rational basis if politics is plausible",
+          "is_correct": false
+        },
+        {
+          "text": "Defer under the political question doctrine",
+          "is_correct": false
+        }
+      ],
+      "translation_zh_tw": "",
+      "translation_zh_cn": "",
+      "translation_en": "",
+      "explanation": "Cooper v. Harris (2017) emphasized that courts must carefully disentangle race-based and politics-based districting motivations when they correlate. The state may not use 'partisan motivation' as a pretextual cover for racial gerrymandering. The challenger bears the burden of showing race-as-predominant, but courts apply rigorous scrutiny when race and politics align.",
+      "difficulty": 3,
+      "tags": "us-conlaw,equal-protection,redistricting",
+      "source": "claude-authored-may-2026",
+      "provenance": "human_curated",
+      "attribution": "Claude PR #5 (validated bank). Awaiting expert review.",
+      "citations": [
+        {
+          "label": "Cooper v. Harris, 581 U.S. 285 (2017)",
+          "url": "https://www.google.com/search?q=Cooper+v.+Harris%2C+581+U.S.+285+%282017%29",
+          "type": "scotus"
+        },
+        {
+          "label": "Bethune-Hill v. Virginia State Bd. of Elections, 580 U.S. 178 (2017)",
+          "url": "https://www.google.com/search?q=Bethune-Hill+v.+Virginia+State+Bd.+of+Elections%2C+580+U.S.+178+%282017%29",
+          "type": "scotus"
+        }
+      ]
+    },
+    {
+      "id": "usconlaw-187",
+      "kind": "grammar",
+      "level": "",
+      "stem": "A city erects a Christmas display on public property that includes a nativity scene alongside secular decorations (Santa, reindeer, candy canes). Per historical Supreme Court doctrine (now superseded by historical-practices), the display was analyzed under:",
+      "grammar_point": "Lynch v. Donnelly (history)",
+      "choices": [
+        {
+          "text": "Strict scrutiny",
+          "is_correct": false
+        },
+        {
+          "text": "The Lemon test, with attention to context and broader holiday celebration",
+          "is_correct": true
+        },
+        {
+          "text": "Rational basis review",
+          "is_correct": false
+        },
+        {
+          "text": "Per se prohibited as religious endorsement",
+          "is_correct": false
+        }
+      ],
+      "translation_zh_tw": "",
+      "translation_zh_cn": "",
+      "translation_en": "",
+      "explanation": "Lynch v. Donnelly (1983) upheld a city's nativity-scene display in the context of broader holiday decorations. Justice O'Connor's concurrence introduced the 'endorsement test' — would a reasonable observer perceive the display as endorsing religion? Subsequent cases (Allegheny County, McCreary, Van Orden) developed context-specific analysis. Kennedy v. Bremerton (2022) shifted to historical-practices analysis.",
+      "difficulty": 3,
+      "tags": "us-conlaw,first-amendment,establishment",
+      "source": "claude-authored-may-2026",
+      "provenance": "human_curated",
+      "attribution": "Claude PR #5 (validated bank). Awaiting expert review.",
+      "citations": [
+        {
+          "label": "Lynch v. Donnelly, 465 U.S. 668 (1983)",
+          "url": "https://www.google.com/search?q=Lynch+v.+Donnelly%2C+465+U.S.+668+%281983%29",
+          "type": "scotus"
+        },
+        {
+          "label": "County of Allegheny v. ACLU, 492 U.S. 573 (1989)",
+          "url": "https://www.google.com/search?q=County+of+Allegheny+v.+ACLU%2C+492+U.S.+573+%281989%29",
+          "type": "scotus"
+        }
+      ]
+    },
+    {
+      "id": "usconlaw-188",
+      "kind": "grammar",
+      "level": "",
+      "stem": "A county courthouse displays the Ten Commandments alongside other historical legal documents. The display was added recently and is positioned to highlight the religious character. Per Supreme Court doctrine (pre-Bremerton), the display was analyzed under:",
+      "grammar_point": "McCreary County / Van Orden",
+      "choices": [
+        {
+          "text": "Strict scrutiny",
+          "is_correct": false
+        },
+        {
+          "text": "The Lemon test with attention to the display's purpose and context",
+          "is_correct": true
+        },
+        {
+          "text": "Rational basis review",
+          "is_correct": false
+        },
+        {
+          "text": "Per se permitted under Marsh v. Chambers",
+          "is_correct": false
+        }
+      ],
+      "translation_zh_tw": "",
+      "translation_zh_cn": "",
+      "translation_en": "",
+      "explanation": "McCreary County v. ACLU (2005) struck down a Ten Commandments display in a Kentucky courthouse, finding the county's history of religious displays demonstrated a religious purpose. Same day, Van Orden v. Perry (2005) upheld a Ten Commandments monument on the Texas Capitol grounds because of its long history and surrounding secular monuments. Context and history mattered; Kennedy v. Bremerton (2022) now formalizes historical-practices analysis.",
+      "difficulty": 3,
+      "tags": "us-conlaw,first-amendment,establishment",
+      "source": "claude-authored-may-2026",
+      "provenance": "human_curated",
+      "attribution": "Claude PR #5 (validated bank). Awaiting expert review.",
+      "citations": [
+        {
+          "label": "McCreary County v. ACLU, 545 U.S. 844 (2005)",
+          "url": "https://www.google.com/search?q=McCreary+County+v.+ACLU%2C+545+U.S.+844+%282005%29",
+          "type": "scotus"
+        },
+        {
+          "label": "Van Orden v. Perry, 545 U.S. 677 (2005)",
+          "url": "https://www.google.com/search?q=Van+Orden+v.+Perry%2C+545+U.S.+677+%282005%29",
+          "type": "scotus"
+        }
+      ]
+    },
+    {
+      "id": "usconlaw-189",
+      "kind": "grammar",
+      "level": "",
+      "stem": "A state-maintained Ten Commandments monument has stood for over 40 years on the grounds of the state capitol, surrounded by other monuments. Per Supreme Court doctrine, the monument is most likely:",
+      "grammar_point": "Van Orden v. Perry",
+      "choices": [
+        {
+          "text": "Unconstitutional as religious endorsement",
+          "is_correct": false
+        },
+        {
+          "text": "Constitutional given its historical context and surrounding secular monuments",
+          "is_correct": true
+        },
+        {
+          "text": "Subject to strict scrutiny",
+          "is_correct": false
+        },
+        {
+          "text": "Constitutional only if non-sectarian",
+          "is_correct": false
+        }
+      ],
+      "translation_zh_tw": "",
+      "translation_zh_cn": "",
+      "translation_en": "",
+      "explanation": "Van Orden v. Perry (2005) upheld the Texas Capitol grounds Ten Commandments monument as part of a broader secular display reflecting Texas's heritage. Decided same-day as McCreary, Van Orden emphasized history, surrounding context, and longstanding tolerance. Kennedy v. Bremerton (2022) now formalizes a historical-practices approach that aligns with Van Orden's reasoning.",
+      "difficulty": 3,
+      "tags": "us-conlaw,first-amendment,establishment",
+      "source": "claude-authored-may-2026",
+      "provenance": "human_curated",
+      "attribution": "Claude PR #5 (validated bank). Awaiting expert review.",
+      "citations": [
+        {
+          "label": "Van Orden v. Perry, 545 U.S. 677 (2005)",
+          "url": "https://www.google.com/search?q=Van+Orden+v.+Perry%2C+545+U.S.+677+%282005%29",
+          "type": "scotus"
+        },
+        {
+          "label": "Kennedy v. Bremerton School District, 597 U.S. 507 (2022)",
+          "url": "https://www.google.com/search?q=Kennedy+v.+Bremerton+School+District%2C+597+U.S.+507+%282022%29",
+          "type": "scotus"
+        }
+      ]
+    },
+    {
+      "id": "usconlaw-190",
+      "kind": "grammar",
+      "level": "",
+      "stem": "Congress enacts federal civil-commitment statute permitting indefinite detention of mentally ill federal inmates after their criminal sentences. Per Supreme Court doctrine, the statute is:",
+      "grammar_point": "US v. Comstock",
+      "choices": [
+        {
+          "text": "Unconstitutional as exceeding enumerated powers",
+          "is_correct": false
+        },
+        {
+          "text": "Constitutional under the Necessary and Proper Clause",
+          "is_correct": true
+        },
+        {
+          "text": "Constitutional under the Spending Clause",
+          "is_correct": false
+        },
+        {
+          "text": "Subject to strict scrutiny",
+          "is_correct": false
+        }
+      ],
+      "translation_zh_tw": "",
+      "translation_zh_cn": "",
+      "translation_en": "",
+      "explanation": "United States v. Comstock (2010) upheld the federal civil-commitment statute (Adam Walsh Act § 4248) under the Necessary and Proper Clause. The Court applied a five-factor analysis: (1) breadth of N&P; (2) historical federal practice; (3) sound rationale linking the statute to enumerated powers; (4) accommodation of state interests; (5) the statute's limited scope.",
+      "difficulty": 3,
+      "tags": "us-conlaw,federalism,necessary-and-proper",
+      "source": "claude-authored-may-2026",
+      "provenance": "human_curated",
+      "attribution": "Claude PR #5 (validated bank). Awaiting expert review.",
+      "citations": [
+        {
+          "label": "United States v. Comstock, 560 U.S. 126 (2010)",
+          "url": "https://www.google.com/search?q=United+States+v.+Comstock%2C+560+U.S.+126+%282010%29",
+          "type": "scotus"
+        }
+      ]
+    },
+    {
+      "id": "usconlaw-191",
+      "kind": "grammar",
+      "level": "",
+      "stem": "After Brown v. Board of Education, a state argues it is not bound by Supreme Court decisions interpreting the U.S. Constitution. Per Supreme Court doctrine, the state's position is:",
+      "grammar_point": "Cooper v. Aaron",
+      "choices": [
+        {
+          "text": "Constitutional under federalism principles",
+          "is_correct": false
+        },
+        {
+          "text": "Unconstitutional — Supreme Court constitutional interpretations bind all states under judicial supremacy",
+          "is_correct": true
+        },
+        {
+          "text": "Subject to political-question analysis",
+          "is_correct": false
+        },
+        {
+          "text": "Constitutional only as to dicta",
+          "is_correct": false
+        }
+      ],
+      "translation_zh_tw": "",
+      "translation_zh_cn": "",
+      "translation_en": "",
+      "explanation": "Cooper v. Aaron (1958) emphatically rejected Arkansas's claim of immunity from desegregation orders. The unanimous opinion (signed individually by all nine Justices) reaffirmed Marbury v. Madison (1803): Supreme Court constitutional interpretations are 'the supreme law of the land' binding all states. Judicial supremacy in constitutional interpretation is foundational to American federalism.",
+      "difficulty": 3,
+      "tags": "us-conlaw,federalism,judicial-supremacy",
+      "source": "claude-authored-may-2026",
+      "provenance": "human_curated",
+      "attribution": "Claude PR #5 (validated bank). Awaiting expert review.",
+      "citations": [
+        {
+          "label": "Cooper v. Aaron, 358 U.S. 1 (1958)",
+          "url": "https://www.google.com/search?q=Cooper+v.+Aaron%2C+358+U.S.+1+%281958%29",
+          "type": "scotus"
+        },
+        {
+          "label": "Marbury v. Madison, 5 U.S. (1 Cranch) 137 (1803)",
+          "url": "https://www.google.com/search?q=Marbury+v.+Madison%2C+5+U.S.+%281+Cranch%29+137+%281803%29",
+          "type": "scotus"
+        }
+      ]
+    },
+    {
+      "id": "usconlaw-192",
+      "kind": "grammar",
+      "level": "",
+      "stem": "A federal taxpayer sues to challenge a federal expenditure as unconstitutional, asserting standing solely as a taxpayer. Per the older but still-cited Supreme Court doctrine, the suit is:",
+      "grammar_point": "Frothingham v. Mellon",
+      "choices": [
+        {
+          "text": "Permitted under the public-citizen standing doctrine",
+          "is_correct": false
+        },
+        {
+          "text": "Barred under Frothingham as a generalized grievance",
+          "is_correct": true
+        },
+        {
+          "text": "Permitted only with state authorization",
+          "is_correct": false
+        },
+        {
+          "text": "Subject to rational basis review",
+          "is_correct": false
+        }
+      ],
+      "translation_zh_tw": "",
+      "translation_zh_cn": "",
+      "translation_en": "",
+      "explanation": "Frothingham v. Mellon (1923) (companion case Massachusetts v. Mellon) established the foundational rule against general taxpayer standing. The Court held that a taxpayer's interest in the federal treasury is too generalized and remote to support Article III standing. Flast v. Cohen (1968) carved a narrow EC exception, since narrowed by Hein and Winn.",
+      "difficulty": 3,
+      "tags": "us-conlaw,standing,taxpayer",
+      "source": "claude-authored-may-2026",
+      "provenance": "human_curated",
+      "attribution": "Claude PR #5 (validated bank). Awaiting expert review.",
+      "citations": [
+        {
+          "label": "Frothingham v. Mellon (Massachusetts v. Mellon), 262 U.S. 447 (1923)",
+          "url": "https://www.google.com/search?q=Frothingham+v.+Mellon+%28Massachusetts+v.+Mellon%29%2C+262+U.S.+447+%281923%29",
+          "type": "scotus"
+        },
+        {
+          "label": "Flast v. Cohen, 392 U.S. 83 (1968)",
+          "url": "https://www.google.com/search?q=Flast+v.+Cohen%2C+392+U.S.+83+%281968%29",
+          "type": "scotus"
+        }
+      ]
+    },
+    {
+      "id": "usconlaw-193",
+      "kind": "grammar",
+      "level": "",
+      "stem": "During wartime, a defendant distributes leaflets urging resistance to the draft. Per the historical (now superseded) Supreme Court doctrine, the speech could be punished under:",
+      "grammar_point": "Schenck — clear and present danger (history)",
+      "choices": [
+        {
+          "text": "The Brandenburg incitement test",
+          "is_correct": false
+        },
+        {
+          "text": "The 'clear and present danger' test (now displaced by Brandenburg)",
+          "is_correct": true
+        },
+        {
+          "text": "The fighting-words doctrine",
+          "is_correct": false
+        },
+        {
+          "text": "Strict scrutiny",
+          "is_correct": false
+        }
+      ],
+      "translation_zh_tw": "",
+      "translation_zh_cn": "",
+      "translation_en": "",
+      "explanation": "Schenck v. United States (1919) introduced the 'clear and present danger' test, used to uphold convictions for anti-draft pamphleting during WWI. Justice Holmes's reasoning: 'falsely shouting fire in a theatre.' This test was the dominant speech doctrine until Brandenburg v. Ohio (1969) replaced it with the more speech-protective 'directed to and likely to produce imminent lawless action' standard.",
+      "difficulty": 3,
+      "tags": "us-conlaw,first-amendment,history",
+      "source": "claude-authored-may-2026",
+      "provenance": "human_curated",
+      "attribution": "Claude PR #5 (validated bank). Awaiting expert review.",
+      "citations": [
+        {
+          "label": "Schenck v. United States, 249 U.S. 47 (1919)",
+          "url": "https://www.google.com/search?q=Schenck+v.+United+States%2C+249+U.S.+47+%281919%29",
+          "type": "scotus"
+        },
+        {
+          "label": "Brandenburg v. Ohio, 395 U.S. 444 (1969)",
+          "url": "https://www.google.com/search?q=Brandenburg+v.+Ohio%2C+395+U.S.+444+%281969%29",
+          "type": "scotus"
+        }
+      ]
+    },
+    {
+      "id": "usconlaw-194",
+      "kind": "grammar",
+      "level": "",
+      "stem": "A state criminalizes the sale of violent video games to minors. Per Supreme Court doctrine, the law is most likely:",
+      "grammar_point": "Brown v. EMA",
+      "choices": [
+        {
+          "text": "Constitutional under the state's interest in protecting minors",
+          "is_correct": false
+        },
+        {
+          "text": "Unconstitutional under strict scrutiny — violence is not unprotected speech",
+          "is_correct": true
+        },
+        {
+          "text": "Constitutional under intermediate scrutiny",
+          "is_correct": false
+        },
+        {
+          "text": "Constitutional under the obscenity exception",
+          "is_correct": false
+        }
+      ],
+      "translation_zh_tw": "",
+      "translation_zh_cn": "",
+      "translation_en": "",
+      "explanation": "Brown v. Entertainment Merchants Ass'n (2011) struck down a California law restricting violent video-game sales to minors. The Court held that violence is NOT a category of unprotected speech (unlike obscenity). The state cannot create new categories of unprotected speech; strict scrutiny applied and the state failed to show narrow tailoring.",
+      "difficulty": 3,
+      "tags": "us-conlaw,first-amendment,speech",
+      "source": "claude-authored-may-2026",
+      "provenance": "human_curated",
+      "attribution": "Claude PR #5 (validated bank). Awaiting expert review.",
+      "citations": [
+        {
+          "label": "Brown v. Entertainment Merchants Ass'n, 564 U.S. 786 (2011)",
+          "url": "https://www.google.com/search?q=Brown+v.+Entertainment+Merchants+Ass%27n%2C+564+U.S.+786+%282011%29",
+          "type": "scotus"
+        },
+        {
+          "label": "United States v. Stevens, 559 U.S. 460 (2010)",
+          "url": "https://www.google.com/search?q=United+States+v.+Stevens%2C+559+U.S.+460+%282010%29",
+          "type": "scotus"
+        }
+      ]
+    },
+    {
+      "id": "usconlaw-195",
+      "kind": "grammar",
+      "level": "",
+      "stem": "A state law prohibits drug-marketing data resellers from using prescriber-identifying information for marketing. Per Supreme Court doctrine, the restriction is most likely:",
+      "grammar_point": "Sorrell v. IMS Health",
+      "choices": [
+        {
+          "text": "Constitutional under the state's privacy interest",
+          "is_correct": false
+        },
+        {
+          "text": "Unconstitutional as content-based commercial-speech restriction",
+          "is_correct": true
+        },
+        {
+          "text": "Constitutional under intermediate scrutiny",
+          "is_correct": false
+        },
+        {
+          "text": "Constitutional under rational basis review",
+          "is_correct": false
+        }
+      ],
+      "translation_zh_tw": "",
+      "translation_zh_cn": "",
+      "translation_en": "",
+      "explanation": "Sorrell v. IMS Health Inc. (2011) struck down Vermont's restriction on pharmacist-identifying data sales for marketing purposes. The Court held it was a CONTENT-BASED and SPEAKER-BASED restriction on commercial speech, subject to heightened scrutiny. The state's asserted interests were not directly advanced by the restriction.",
+      "difficulty": 3,
+      "tags": "us-conlaw,first-amendment,commercial-speech",
+      "source": "claude-authored-may-2026",
+      "provenance": "human_curated",
+      "attribution": "Claude PR #5 (validated bank). Awaiting expert review.",
+      "citations": [
+        {
+          "label": "Sorrell v. IMS Health Inc., 564 U.S. 552 (2011)",
+          "url": "https://www.google.com/search?q=Sorrell+v.+IMS+Health+Inc.%2C+564+U.S.+552+%282011%29",
+          "type": "scotus"
+        }
+      ]
+    },
+    {
+      "id": "usconlaw-196",
+      "kind": "grammar",
+      "level": "",
+      "stem": "Public school students wear black armbands to silently protest the Vietnam War. The school suspends them. Per Supreme Court doctrine, the suspensions are:",
+      "grammar_point": "Tinker v. Des Moines",
+      "choices": [
+        {
+          "text": "Constitutional under in loco parentis",
+          "is_correct": false
+        },
+        {
+          "text": "Unconstitutional unless the speech materially and substantially disrupts the school's operation",
+          "is_correct": true
+        },
+        {
+          "text": "Subject to rational basis review",
+          "is_correct": false
+        },
+        {
+          "text": "Constitutional under educational deference",
+          "is_correct": false
+        }
+      ],
+      "translation_zh_tw": "",
+      "translation_zh_cn": "",
+      "translation_en": "",
+      "explanation": "Tinker v. Des Moines (1969) held that students do not 'shed their constitutional rights to freedom of speech or expression at the schoolhouse gate.' School officials may regulate student speech only when the speech materially and substantially disrupts the educational environment. Subsequent cases (Bethel, Hazelwood, Morse v. Frederick) carved out exceptions for plainly offensive, school-sponsored, and drug-promoting speech.",
+      "difficulty": 3,
+      "tags": "us-conlaw,first-amendment,student-speech",
+      "source": "claude-authored-may-2026",
+      "provenance": "human_curated",
+      "attribution": "Claude PR #5 (validated bank). Awaiting expert review.",
+      "citations": [
+        {
+          "label": "Tinker v. Des Moines Indep. Community School Dist., 393 U.S. 503 (1969)",
+          "url": "https://www.google.com/search?q=Tinker+v.+Des+Moines+Indep.+Community+School+Dist.%2C+393+U.S.+503+%281969%29",
+          "type": "scotus"
+        },
+        {
+          "label": "Mahanoy Area School Dist. v. B.L., 594 U.S. 180 (2021)",
+          "url": "https://www.google.com/search?q=Mahanoy+Area+School+Dist.+v.+B.L.%2C+594+U.S.+180+%282021%29",
+          "type": "scotus"
+        }
+      ]
+    },
+    {
+      "id": "usconlaw-197",
+      "kind": "grammar",
+      "level": "",
+      "stem": "A state law requires drug-store owners to dispense emergency contraception, even if the owner has religious objections. Per Supreme Court doctrine, the analysis turns on:",
+      "grammar_point": "Smith / Lukumi neutrality",
+      "choices": [
+        {
+          "text": "Whether the law is generally applicable and neutral",
+          "is_correct": true
+        },
+        {
+          "text": "Strict scrutiny because it burdens religion",
+          "is_correct": false
+        },
+        {
+          "text": "Whether the owner is a closely-held corporation under RFRA",
+          "is_correct": false
+        },
+        {
+          "text": "Per se constitutionality under Smith",
+          "is_correct": false
+        }
+      ],
+      "translation_zh_tw": "",
+      "translation_zh_cn": "",
+      "translation_en": "",
+      "explanation": "Employment Division v. Smith (1990) established that NEUTRAL, generally-applicable laws receive only rational-basis review even if they incidentally burden religion. Church of Lukumi Babalu Aye v. Hialeah (1993) and Fulton v. Philadelphia (2021) clarify that laws must be both NEUTRAL and GENERALLY APPLICABLE to escape strict scrutiny — laws containing individualized exemption regimes face heightened review.",
+      "difficulty": 3,
+      "tags": "us-conlaw,first-amendment,free-exercise",
+      "source": "claude-authored-may-2026",
+      "provenance": "human_curated",
+      "attribution": "Claude PR #5 (validated bank). Awaiting expert review.",
+      "citations": [
+        {
+          "label": "Employment Division v. Smith, 494 U.S. 872 (1990)",
+          "url": "https://www.google.com/search?q=Employment+Division+v.+Smith%2C+494+U.S.+872+%281990%29",
+          "type": "scotus"
+        },
+        {
+          "label": "Church of Lukumi Babalu Aye v. Hialeah, 508 U.S. 520 (1993)",
+          "url": "https://www.google.com/search?q=Church+of+Lukumi+Babalu+Aye+v.+Hialeah%2C+508+U.S.+520+%281993%29",
+          "type": "scotus"
+        }
+      ]
+    },
+    {
+      "id": "usconlaw-198",
+      "kind": "grammar",
+      "level": "",
+      "stem": "A federal regulation imposes a substantial burden on religious exercise. The regulated party invokes RFRA. Per Supreme Court doctrine, the regulation must:",
+      "grammar_point": "RFRA strict scrutiny",
+      "choices": [
+        {
+          "text": "Survive rational basis review",
+          "is_correct": false
+        },
+        {
+          "text": "Survive strict scrutiny — least restrictive means to serve a compelling interest",
+          "is_correct": true
+        },
+        {
+          "text": "Be neutral and generally applicable",
+          "is_correct": false
+        },
+        {
+          "text": "Be authorized by Congress",
+          "is_correct": false
+        }
+      ],
+      "translation_zh_tw": "",
+      "translation_zh_cn": "",
+      "translation_en": "",
+      "explanation": "RFRA (1993, after Smith) restored strict scrutiny for substantial burdens on religious exercise, but only as applied to FEDERAL law (City of Boerne v. Flores, 1997, struck down RFRA's application to states). Burwell v. Hobby Lobby (2014) applied RFRA to closely-held corporations. The standard: the federal regulation must be the LEAST RESTRICTIVE MEANS to further a COMPELLING government interest.",
+      "difficulty": 3,
+      "tags": "us-conlaw,first-amendment,rfra",
+      "source": "claude-authored-may-2026",
+      "provenance": "human_curated",
+      "attribution": "Claude PR #5 (validated bank). Awaiting expert review.",
+      "citations": [
+        {
+          "label": "Burwell v. Hobby Lobby Stores, 573 U.S. 682 (2014)",
+          "url": "https://www.google.com/search?q=Burwell+v.+Hobby+Lobby+Stores%2C+573+U.S.+682+%282014%29",
+          "type": "scotus"
+        },
+        {
+          "label": "City of Boerne v. Flores, 521 U.S. 507 (1997)",
+          "url": "https://www.google.com/search?q=City+of+Boerne+v.+Flores%2C+521+U.S.+507+%281997%29",
+          "type": "scotus"
+        }
+      ]
+    },
+    {
+      "id": "usconlaw-199",
+      "kind": "grammar",
+      "level": "",
+      "stem": "Congress enacts a Religious Land Use and Institutionalized Persons Act provision requiring strict scrutiny of laws substantially burdening religious land-use. The act applies to states. Per Supreme Court doctrine, it is:",
+      "grammar_point": "Cutter v. Wilkinson",
+      "choices": [
+        {
+          "text": "Unconstitutional under City of Boerne v. Flores",
+          "is_correct": false
+        },
+        {
+          "text": "Constitutional as a valid exercise of Spending Clause and Commerce Clause powers",
+          "is_correct": true
+        },
+        {
+          "text": "Constitutional under the 14A § 5 enforcement power only",
+          "is_correct": false
+        },
+        {
+          "text": "Subject to strict scrutiny",
+          "is_correct": false
+        }
+      ],
+      "translation_zh_tw": "",
+      "translation_zh_cn": "",
+      "translation_en": "",
+      "explanation": "Cutter v. Wilkinson (2005) upheld RLUIPA's application to state and local prisoner-religion claims as a valid exercise of the Spending Clause power (states accept federal funds for prisons subject to RLUIPA). Holt v. Hobbs (2015) applied RLUIPA's strict scrutiny to a prison grooming policy. Unlike RFRA's broader application (struck down for states in Boerne), RLUIPA's targeted application via Spending and Commerce Clauses is constitutional.",
+      "difficulty": 3,
+      "tags": "us-conlaw,first-amendment,rluipa",
+      "source": "claude-authored-may-2026",
+      "provenance": "human_curated",
+      "attribution": "Claude PR #5 (validated bank). Awaiting expert review.",
+      "citations": [
+        {
+          "label": "Cutter v. Wilkinson, 544 U.S. 709 (2005)",
+          "url": "https://www.google.com/search?q=Cutter+v.+Wilkinson%2C+544+U.S.+709+%282005%29",
+          "type": "scotus"
+        },
+        {
+          "label": "Holt v. Hobbs, 574 U.S. 352 (2015)",
+          "url": "https://www.google.com/search?q=Holt+v.+Hobbs%2C+574+U.S.+352+%282015%29",
+          "type": "scotus"
+        }
+      ]
+    },
+    {
+      "id": "usconlaw-200",
+      "kind": "grammar",
+      "level": "",
+      "stem": "An incarcerated person sues prison officials, alleging the deprivation of his right to grow a beard for religious reasons (a half-inch beard for Muslim faith). Per Supreme Court doctrine, the prison's no-beard policy is most likely:",
+      "grammar_point": "Holt v. Hobbs",
+      "choices": [
+        {
+          "text": "Constitutional under the prison's security interest",
+          "is_correct": false
+        },
+        {
+          "text": "Subject to RLUIPA's strict scrutiny — must be the least restrictive means to serve a compelling interest",
+          "is_correct": true
+        },
+        {
+          "text": "Subject to rational basis review (Turner v. Safley)",
+          "is_correct": false
+        },
+        {
+          "text": "Per se unconstitutional",
+          "is_correct": false
+        }
+      ],
+      "translation_zh_tw": "",
+      "translation_zh_cn": "",
+      "translation_en": "",
+      "explanation": "Holt v. Hobbs (2015) struck down Arkansas's no-beard policy as applied to a Muslim prisoner seeking a half-inch beard for religious reasons. RLUIPA imposes strict scrutiny: the prison must show its policy is the LEAST RESTRICTIVE MEANS to serve a compelling interest. The Court found the prison's security justifications insufficient given the limited beard length and accommodations elsewhere.",
+      "difficulty": 3,
+      "tags": "us-conlaw,first-amendment,rluipa,prisoner",
+      "source": "claude-authored-may-2026",
+      "provenance": "human_curated",
+      "attribution": "Claude PR #5 (validated bank). Awaiting expert review.",
+      "citations": [
+        {
+          "label": "Holt v. Hobbs, 574 U.S. 352 (2015)",
+          "url": "https://www.google.com/search?q=Holt+v.+Hobbs%2C+574+U.S.+352+%282015%29",
+          "type": "scotus"
+        },
+        {
+          "label": "Cutter v. Wilkinson, 544 U.S. 709 (2005)",
+          "url": "https://www.google.com/search?q=Cutter+v.+Wilkinson%2C+544+U.S.+709+%282005%29",
+          "type": "scotus"
+        }
+      ]
     }
   ]
 }
