@@ -22,8 +22,8 @@ class ApiControllerTest {
         // Bumps in lockstep with CLAUDE.md §5.2 — every PR adds 50 cards.
         mvc.perform(get("/api/pool-summary"))
                 .andExpect(status().isOk())
-                .andExpect(jsonPath("$.default").value(300))
-                .andExpect(jsonPath("$.experimental").value(300));
+                .andExpect(jsonPath("$.default").value(350))
+                .andExpect(jsonPath("$.experimental").value(350));
     }
 
     @Test

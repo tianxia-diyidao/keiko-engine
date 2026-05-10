@@ -18,7 +18,7 @@ class CardStoreTest {
         // Standing rule (CLAUDE.md §5.2): every PR adds 50 validated cards.
         // PR #1 (initial): 50. PR #3 (this): +50. Bump in lockstep with each
         // 50-card additions PR going forward.
-        assertThat(cardStore.all()).hasSize(300);
+        assertThat(cardStore.all()).hasSize(350);
     }
 
     @Test
