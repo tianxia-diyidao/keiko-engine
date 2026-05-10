@@ -66,12 +66,12 @@
       const li = document.createElement("li");
       li.textContent = c.text;
       li.dataset.position = String(c.position);
-      li.addEventListener("click", () => onChoose(li, c.position));
+      li.addEventListener("click", () => onChoose(li));
       dom.choices.appendChild(li);
     });
   }
 
-  function onChoose(li, position) {
+  function onChoose(li) {
     if (li.classList.contains("is-locked")) return;
     document.querySelectorAll(".card-choices li").forEach((el) => el.classList.add("is-locked"));
 
@@ -80,15 +80,19 @@
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
         questionId: session.currentCard.id,
-        choicePosition: position,
+        // v0.2: send TEXT, not position. Server grades by text match because
+        // /api/next/ shuffles choices, so the position you see ≠ position the
+        // server stored. (See keiko-engine PR #2 grading-bug fix.)
+        chosenText: li.textContent,
       }),
     })
       .then((r) => r.json())
       .then((result) => {
         // Visual feedback on chosen + correct rows.
+        const chosenText = li.textContent;
         document.querySelectorAll(".card-choices li").forEach((el) => {
           if (el.textContent === result.correctText) el.classList.add("is-correct");
-          else if (el.dataset.position === String(position) && !result.correct) {
+          else if (el.textContent === chosenText && !result.correct) {
             el.classList.add("is-wrong");
           }
         });
